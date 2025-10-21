@@ -1,0 +1,138 @@
+# version: '3.8'
+
+# services:
+#   # Backend Flask
+#   backend:
+#     build: .
+#     ports:
+#       - "5003:5003"
+#     environment:
+#       - FLASK_APP=app
+#       - FLASK_ENV=development
+#       - SQLALCHEMY_DATABASE_URI=postgresql://bovicare:password@db:5432/bovicare
+#       - SMTP_SERVER=smtp.gmail.com
+#       - SMTP_PORT=587
+#       - EMAIL_USER=bovicare531@gmail.com
+#       - EMAIL_PASSWORD=kmhw gtvo qosg bode
+#     depends_on:
+#       - db
+#     volumes:
+#       - ./app:/app/app
+#     networks:
+#       - bovicare-network
+
+#   # Frontend React
+#   frontend:
+#     build: ../bovicare-web
+#     ports:
+#       - "3000:3000"
+#     environment:
+#       - REACT_APP_API_URL=http://localhost:5003
+#       - REACT_APP_ENV=development
+#     depends_on:
+#       - backend
+#     volumes:
+#       - ../bovicare-web/src:/app/src
+#       - ../bovicare-web/public:/app/public
+#     networks:
+#       - bovicare-network
+
+#   # PostgreSQL Database
+#   db:
+#     image: postgres:15
+#     environment:
+#       - POSTGRES_DB=bovicare
+#       - POSTGRES_USER=bovicare
+#       - POSTGRES_PASSWORD=password
+#     ports:
+#       - "5432:5432"
+#     volumes:
+#       - postgres_data:/var/lib/postgresql/data
+#     networks:
+#       - bovicare-network
+
+# volumes:
+#   postgres_data:
+
+# networks:
+#   bovicare-network:
+#     driver: bridge
+
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ..
+      dockerfile: bovicare-api/Dockerfile
+    command: >
+      sh -c "pip install --no-cache-dir -r requirements.txt &&
+             flask --app app run --host=0.0.0.0 --port=5003"
+    ports:
+      - "5003:5003"
+    environment:
+      - FLASK_APP=app
+      - FLASK_ENV=production
+      - FLASK_DEBUG=0
+      - SQLALCHEMY_DATABASE_URI=postgresql://bovicare:password@db:5432/bovicare
+      - MILVUS_DATA_DIR=/milvus_data
+      # SMTP (mova para .env)
+      - SMTP_SERVER=smtp.gmail.com
+      - SMTP_PORT=587
+      - EMAIL_USER=${EMAIL_USER}
+      - EMAIL_PASSWORD=${EMAIL_PASSWORD}
+      # Melhor hot-reload do Flask com watchdog
+      - PYTHONUNBUFFERED=1
+    depends_on:
+      - db
+    volumes:
+      - ./app:/app/app
+      - ../RAG:/app/RAG
+      - milvus_data:/milvus_data
+      # Se seu Dockerfile define WORKDIR /app, garanta que app/__init__.py existe
+    networks:
+      - bovicare-network
+
+  frontend:
+    build:
+      context: ../bovicare-web
+    command: sh -c "npm install && npm start"
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:5003
+      - REACT_APP_ENV=development
+      # Detectar mudanças em Docker Desktop/WSL:
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+      - WDS_SOCKET_PORT=3000
+    depends_on:
+      - backend
+    volumes:
+      - ../bovicare-web/src:/app/src
+      - ../bovicare-web/public:/app/public
+      # evita que o node_modules do host (ou sua ausência) sobrescreva o do container
+      - /app/node_modules
+    networks:
+      - bovicare-network
+
+  db:
+    image: postgres:15
+    environment:
+      - POSTGRES_DB=bovicare
+      - POSTGRES_USER=bovicare
+      - POSTGRES_PASSWORD=password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - bovicare-network
+
+volumes:
+  postgres_data:
+  milvus_data:
+
+networks:
+  bovicare-network:
+    driver: bridge

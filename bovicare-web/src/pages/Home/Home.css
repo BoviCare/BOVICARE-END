@@ -1,0 +1,111 @@
+/* ====== Layout base (pensado para existir sidebar à esquerda) ====== */
+:root{
+  --bg: #0ea5b7;                 /* água-marinha da captura */
+  --pattern: rgba(255,255,255,.12);
+  --panel: #0f172a;              /* azul petróleo escuro */
+  --panel2: #0b1324;
+  --border: #1f2a44;
+  --text: #eef2ff;
+  --muted: #a3adc2;
+  --accent: #ff8a00;
+  --radius: 16px;
+  --shadow: 0 14px 30px rgba(2,8,23,.35), inset 0 1px 0 rgba(255,255,255,.04);
+}
+
+.home-container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff; /* Fundo branco liso apenas na página inicial */
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Padrão removido da página inicial - mantido apenas na página de login */
+.home-container::before{
+  content: none; /* Remove o padrão de papel de parede apenas da página inicial */
+}
+
+.home-main{
+  position: relative; z-index: 1;
+  padding: 20px 24px 40px;
+  /* como há sidebar, empurra só o conteúdo interno,
+     deixando quem controla a largura ser o grid abaixo */
+}
+
+.home-hero{
+  margin: 10px 0 10px;
+}
+.home-hero h1{
+  font-size: 28px; font-weight: 800; color: var(--text); margin: 0 0 4px 0;
+}
+.home-hero p{
+  color: var(--text); opacity: .85; margin: 0;
+}
+.accent{ color: var(--accent); }
+
+/* GRID principal (coluna grande + coluna de cards) */
+.home-grid{
+  display:grid;
+  grid-template-columns: minmax(520px, 820px) minmax(320px, 420px);
+  gap: 20px;
+  max-width: 1280px;
+  margin: 0 auto;          /* centraliza o miolo */
+}
+
+/* ====== CARD ====== */
+.card{
+  background: linear-gradient(0deg, rgba(17,24,39,.82), rgba(17,24,39,.82));
+  border:1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+  color: var(--text);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(2px);
+}
+.card-lg{ padding: 18px; min-height: 360px; }
+.card-title{
+  margin:0 0 14px; font-weight: 800; letter-spacing:.2px;
+}
+
+/* ====== ATIVIDADES ====== */
+.atividades{
+  list-style:none; margin:0; padding:0; display:grid; gap:12px;
+}
+.ativ-item{
+  display:flex; align-items:center; justify-content:space-between;
+  background: var(--panel);
+  border:1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px;
+}
+.ativ-left{ display:flex; gap:12px; align-items:center; }
+.ativ-ico{
+  width:36px; height:36px; display:grid; place-items:center;
+  border-radius:10px; background: var(--panel2); border:1px solid var(--border);
+  font-size:18px;
+}
+.ativ-texto{ font-size:15px; }
+.ativ-data{ color: var(--muted); font-size:13px; }
+
+/* ====== COLUNA DIREITA ====== */
+.right-col{ display:grid; gap:20px; }
+
+/* Produção de Leite */
+.milk-wrap{
+  display:grid; grid-template-columns: 1fr 120px; gap:12px; align-items:center;
+}
+.milk-num{ font-size:36px; font-weight:900; line-height:1; }
+.milk-hoje{ color: var(--muted); margin-bottom:10px; }
+.milk-hist{ list-style:none; padding:0; margin:0; display:grid; gap:6px; color: var(--muted); }
+.milk-emoji{ font-size:82px; text-align:right; filter: drop-shadow(0 8px 14px rgba(0,0,0,.25)); }
+
+/* Saúde/Cadastro (duas colunas) */
+.row-two{ display:grid; grid-template-columns:1fr 110px; align-items:center; }
+.col-info p{ margin:6px 0; }
+.col-emoji{ font-size:74px; text-align:right; filter: drop-shadow(0 8px 14px rgba(0,0,0,.25)); }
+
+/* ====== Responsivo ====== */
+@media (max-width: 1080px){
+  .home-grid{ grid-template-columns: 1fr; }
+}

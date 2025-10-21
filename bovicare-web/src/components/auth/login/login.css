@@ -1,0 +1,166 @@
+/* login.css */
+
+/* Remove todas as bordas do card */
+.card, .card * {
+  border: none !important;
+  outline: none !important;
+  border-width: 0 !important;
+  border-style: none !important;
+  border-color: transparent !important;
+}
+
+
+/* Corpo da página - fundo com a imagem APENAS na página de login */
+.login-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('/public/images/fundo.svg'); /* Caminho da imagem de fundo */
+  background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+  background-position: center;
+  display: flex;
+  flex-direction: column; /* Mudança: coluna para logo acima do card */
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Espaço entre logo e card */
+}
+
+  /* Card de login */
+  .card {
+    background-color: #ffffff !important; 
+    background: #ffffff !important; 
+    padding: 40px; /* Aumentar padding */
+    border-radius: 16px; /* Bordas mais arredondadas */
+    border: none !important; /* Remove qualquer borda - forçando */
+    outline: none !important; /* Remove outline */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada */
+    width: 100%;
+    max-width: 420px; /* Aumentar largura máxima */
+    text-align: center; /* Centralizar texto */
+    margin: 0 auto; /* Centralizar o card */
+  }
+
+  /* Força o fundo branco em qualquer situação */
+  .login-container .card {
+    background-color: #ffffff !important;
+    background: #ffffff !important;
+    border: none !important;
+    outline: none !important;
+    border-width: 0 !important;
+    border-style: none !important;
+    border-color: transparent !important;
+  }
+
+.login-container img {
+  width: 150px; /* Aumentar o tamanho da logo */
+  height: auto; /* Manter proporção */
+  display: block; /* Torna a imagem um bloco */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  z-index: 10; /* Garantir que fique acima de outros elementos */
+}
+
+ .card h2 {
+   margin-bottom: 10px;
+   font-size: 28px; /* Tamanho da fonte do título - maior */
+   color: #000000; /* Cor preta para o título */
+   font-weight: 600; /* Peso da fonte mais forte */
+ }
+
+ .card span {
+   font-size: 14px;
+   color: #000000; /* Cor preta para o subtítulo */
+   margin-bottom: 20px; /* Espaço entre o texto e os campos de entrada */
+ }
+
+/* Estilo dos campos de entrada */
+input {
+  width: 100%;
+  padding: 16px 20px; /* Aumentar padding */
+  margin: 12px 0; /* Aumentar margem */
+  border: 2px solid #e5e7eb; /* Borda mais visível */
+  border-radius: 12px; /* Bordas mais arredondadas */
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: all 0.3s ease; /* Transição suave */
+  background: #ffffff;
+}
+
+input:focus {
+  outline: none;
+  border-color: #15AABF; /* Cor do tema no foco */
+  box-shadow: 0 0 0 4px rgba(21, 170, 191, 0.15); /* Sombra no foco */
+}
+
+/* Estilo do botão de login */
+.login-container button {
+  width: 100%;
+  padding: 16px 20px; /* Aumentar padding */
+  background-color: #15AABF; /* Cor exata especificada */
+  color: #ffffff; /* Texto branco */
+  border: none;
+  border-radius: 12px; /* Bordas arredondadas mais suaves */
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Transição mais suave */
+  margin-top: 8px; /* Espaço do botão */
+  box-shadow: 0 4px 12px rgba(21, 170, 191, 0.3); /* Sombra do botão */
+}
+
+.login-container button:hover {
+  background-color: #1296a7; /* Versão mais escura no hover */
+  transform: translateY(-2px); /* Movimento mais pronunciado */
+  box-shadow: 0 6px 20px rgba(21, 170, 191, 0.4); /* Sombra mais intensa no hover */
+}
+
+.login-container button:active {
+  transform: translateY(0);
+}
+
+/* Estilo de erro */
+p {
+  color: red;
+  font-size: 14px;
+}
+
+/* Link de cadastro */
+.login-container a {
+  color: #15AABF; /* Cor exata especificada */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-container a:hover {
+  color: #1296a7; /* Versão mais escura no hover */
+  text-decoration: underline;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+  .login-container {
+    padding: 20px; /* Padding lateral em mobile */
+    gap: 20px; /* Reduzir gap em mobile */
+  }
+  
+  .login-container img {
+    width: 120px; /* Reduzir logo em mobile */
+  }
+  
+  .card {
+    max-width: 100%; /* Card ocupa toda largura em mobile */
+    padding: 30px 20px; /* Reduzir padding em mobile */
+    margin: 0 10px; /* Margem lateral em mobile */
+  }
+  
+  .card h2 {
+    font-size: 24px; /* Reduzir tamanho do título em mobile */
+  }
+  
+  input {
+    padding: 14px 16px; /* Reduzir padding dos inputs em mobile */
+  }
+  
+  .login-container button {
+    padding: 14px 16px; /* Reduzir padding do botão em mobile */
+  }
+}

@@ -1,0 +1,5 @@
+langchain-core==0.3.66
+langchain-community==0.3.26
+langchain-openai==0.3.25
+pydantic==2.11.7
+pandas==2.3.0

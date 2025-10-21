@@ -1,0 +1,130 @@
+.forgot-card h2 {
+  margin-bottom: 10px;
+}
+
+.forgot-card span {
+  display: block;
+  font-size: 16px;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.radio-row {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.forgot-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.forgot-wrapper > img,
+.forgot-logo img {
+  width: 150px;
+  height: auto;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  color: #212529;
+  width: 100%;
+  padding: 14px 18px;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #ffffff 0%, #f7f9fb 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.radio input {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ced4da;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.radio input:checked {
+  border-color: #15AABF;
+  background-color: rgba(21, 170, 191, 0.1);
+}
+
+.radio input:checked::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #15AABF;
+  transform: translate(-50%, -50%);
+}
+
+.radio input:checked + span {
+  color: #212529;
+  font-weight: 600;
+}
+
+.radio.active {
+  color: #212529;
+  font-weight: 600;
+  border-color: #15AABF;
+  box-shadow: 0 6px 20px rgba(21, 170, 191, 0.18);
+  background: linear-gradient(180deg, #ffffff 0%, #e6f8fb 100%);
+}
+
+.code-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 24px 0;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.code-input {
+  text-align: center;
+  font-size: 24px;
+  border: 1px solid #d1d9e0;
+  border-radius: 12px;
+  width: 48px;
+  height: 56px;
+  padding: 0;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #212529;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  flex-shrink: 0;
+}
+
+.code-input:focus {
+  outline: none;
+  border-color: #15AABF;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), 0 8px 24px rgba(21, 170, 191, 0.18);
+}
+
+.error-text {
+  color: #dc3545;
+}
+
+.muted {
+  color: #a1a1a1;
+  text-align: center;
+}
+
+

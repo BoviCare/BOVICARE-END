@@ -1,0 +1,28 @@
+# <type>(<scope>): <subject>
+#
+# <body>
+#
+# <footer>
+
+# Tipos de commit:
+# feat:     nova funcionalidade
+# fix:      correção de bug
+# docs:     documentação
+# style:    formatação
+# refactor: refatoração
+# test:     testes
+# chore:    manutenção
+
+# Escopo (opcional):
+# auth:     autenticação
+# api:      API
+# ui:       interface
+# config:   configuração
+# deps:     dependências
+
+# Exemplos:
+# feat(auth): add user authentication system
+# fix(api): resolve login API integration issue
+# docs: update README with latest changes
+# test(auth): add login component tests
+# chore(deps): update axios to latest version

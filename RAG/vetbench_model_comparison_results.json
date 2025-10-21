@@ -1,0 +1,767 @@
+{
+  "evaluation_type": "HealthBench-style VetBench Model Comparison",
+  "models_tested": [
+    "gpt-5-nano",
+    "gpt-5-mini",
+    "gpt-5"
+  ],
+  "total_queries": 5,
+  "reranking_enabled": true,
+  "model_comparison": {
+    "gpt-5-nano": {
+      "model_name": "GPT-5 Nano",
+      "model_id": "gpt-5-nano",
+      "results": [
+        {
+          "query": "Quais s\u00e3o os primeiros sinais de mastite em vacas leiteiras?",
+          "expected_response": "Os primeiros sinais incluem mudan\u00e7as na apar\u00eancia do leite, incha\u00e7o do \u00fabere, diminui\u00e7\u00e3o da produ\u00e7\u00e3o de leite e mudan\u00e7as comportamentais como chutar durante a ordenha.",
+          "actual_response": "N\u00e3o encontrei nos documentos fornecidos uma lista expl\u00edcita dos primeiros sinais de mastite em vacas leiteiras. Os textos apenas diferenciam mastite cl\u00ednica (sinais evidentes no exame cl\u00ednico) de mastite subcl\u00ednica (sem sinais cl\u00ednicos) e mencionam que a composi\u00e7\u00e3o do leite varia conforme o agente e a gravidade, sem detalhar sinais iniciais espec\u00edficos.\n\nO que os documentos realmente descrevem:\n- Mastite cl\u00ednica: sinais observ\u00e1veis no exame cl\u00ednico (n\u00e3o listados de forma detalhada no material).\n- Mastite subcl\u00ednica: aus\u00eancia de sinais cl\u00ednicos; detectada por testes como o Calfifornia Mastitis Test (CMT) ou contagem de c\u00e9lulas som\u00e1ticas (CCS).\n- Detec\u00e7\u00e3o e monitoramento: CMT ou CCS s\u00e3o estrat\u00e9gias-chave para diagn\u00f3stico de mastite, especialmente subcl\u00ednica; teste para mastite cl\u00ednica com caneca de fundo escuro tamb\u00e9m \u00e9 citado.\n\nSe quiser, posso explicar como realizar e interpretar o CMT e a CCS com base no material fornecido, ou discutir medidas de preven\u00e7\u00e3o e manejo que ajudam na detec\u00e7\u00e3o precoce.",
+          "overall_score": 0.0,
+          "metrics": {
+            "overall_score": 0.0,
+            "dairy_management": 0.0,
+            "theme:general_veterinary": 0.0,
+            "axis:accuracy": 0.0,
+            "theme:dairy_management": 0.0,
+            "level:example": 0.0,
+            "axis:safety": 0.0,
+            "theme:emergency_care": 0.0,
+            "axis:completeness": 0.0,
+            "theme:prevention": 0.0
+          },
+          "rubric_items_count": 4,
+          "sources": [
+            {
+              "disease_name": "Mastite",
+              "disease_type": "DoencasBacterianas",
+              "chunk_index": "1",
+              "section_type": "overview",
+              "page_number": "[18, 19]",
+              "relevance_score": 0.7505766153335571,
+              "content_preview": "Doen\u00e7as bacterianas\nMastite\nApesar de todos avan\u00e7os tecnol\u00f3gicos, a infec\u00e7\u00e3o da gl\u00e2ndula mam\u00e1ria continua sendo a doen\u00e7a bacte-\nriana com maior impacto em rebanhos leiteiros e, portanto, avan\u00e7os cont\u00ed..."
+            },
+            {
+              "disease_name": "Mastite",
+              "disease_type": "DoencasBacterianas",
+              "chunk_index": "3",
+              "section_type": "Controle_e_Profilaxia",
+              "page_number": "19",
+              "relevance_score": 0.7466052770614624,
+              "content_preview": "Controle e profilaxia da Mastite: o controle da mastite deve levar em conta a redu\u00e7\u00e3o dos fatores que podem pre-\ndispor a sua ocorr\u00eancia nos animais, tais como: adequar as instala\u00e7\u00f5es de forma a evita..."
+            },
+            {
+              "disease_name": "Mastite",
+              "disease_type": "DoencasBacterianas",
+              "chunk_index": "2",
+              "section_type": "Diagnostico",
+              "page_number": "19",
+              "relevance_score": 0.7034373879432678,
+              "content_preview": "Diagn\u00f3stico da Mastite: em mastites subcl\u00ednicas, \u00e9 realizado pelo CMT (California Mastites Test), ou pela contagem \nde c\u00e9lulas som\u00e1ticas (CCS) em laborat\u00f3rios da Rede Brasileira de Laborat\u00f3rios de Qua..."
+            }
+          ]
+        },
+        {
+          "query": "Como devo lidar com uma vaca com suspeita de IBR?",
+          "expected_response": "Isole o animal imediatamente, entre em contato com seu veterin\u00e1rio, implemente medidas de biosseguran\u00e7a e monitore outros animais para sintomas.",
+          "actual_response": "Aqui est\u00e1 um guia pr\u00e1tico baseado na literatura fornecida para lidar com uma vaca com suspeita de Rinotraque\u00edte Infecciosa Bovina (IBR) causada pelo BoHV\u20111:\n\n- Aja rapidamente para impedir a dissemina\u00e7\u00e3o\n  - Isole a vaca suspeita do restante do rebanho e minimize o contato com outras f\u00eameas, especialmente com animais de alto valor reprodutivo.\n  - Mantenha boa ventila\u00e7\u00e3o e manejo suave para reduzir estresse, que pode reativar o v\u00edrus.\n\n- Confirme o diagn\u00f3stico com amostras laboratoriais\n  - Amostras para isolamento viral e PCR: swab nasal, swab conjuntival, s\u00eamen fresco ou congelado, fragmentos de tecidos de fetos abortados, g\u00e2nglios dos nervos sacral e trig\u00eamio (quando poss\u00edvel).\n  - Amostras para diagn\u00f3stico sorol\u00f3gico: soro sangu\u00edneo colhido de forma ass\u00e9ptica (ou sangue).\n  - Envie todas as amostras sob refrigera\u00e7\u00e3o, com identifica\u00e7\u00e3o, hist\u00f3rico cl\u00ednico e altera\u00e7\u00f5es observadas.\n  - Testes sorol\u00f3gicos usuais:\n    - Soroneutraliza\u00e7\u00e3o (padr\u00e3o): t\u00edtulos t\u00edpicos entre 8 e 64; a t\u00e9cnica pode n\u00e3o diferenciar anti\u2011BoHV-1 adquirido de vacina\u00e7\u00e3o.\n    - ELISA: \u00fatil pela sensibilidade e rapidez.\n  - Coleta pareada de soro (in\u00edcio do quadro e 2\u20134 semanas depois) pode ajudar no diagn\u00f3stico, mas n\u00e3o distingue vacina de infec\u00e7\u00e3o natural.\n  - Lembre: BoHV\u20111 pode permanecer latente e reativar sob estresse; resultados devem ser interpretados no contexto cl\u00ednico e epidemiol\u00f3gico.\n\n- Manejo cl\u00ednico enquanto aguarda resultados\n  - N\u00e3o existe antiviral espec\u00edfico profilando cura; o manejo \u00e9 de suporte.\n  - Garanta \u00e1gua e alimenta\u00e7\u00e3o adequadas, conforto, controle de febre e monitoramento de complica\u00e7\u00f5es respirat\u00f3rias ou reprodutivas.\n  - Trate infec\u00e7\u00f5es secund\u00e1rias se necess\u00e1rio, seguindo o julgamento de um veterin\u00e1rio.\n\n- Controle de infec\u00e7\u00e3o no rebanho (a longo prazo)\n  - Vacina\u00e7\u00e3o: n\u00e3o impede a infec\u00e7\u00e3o, mas reduz a gravidade cl\u00ednica e as perdas econ\u00f4micas.\n    - Em rebanhos com hist\u00f3rico comprovado de infec\u00e7\u00e3o, a vacina\u00e7\u00e3o pode ser ben\u00e9fica, especialmente em sistemas com alta rotatividade ou confinamento.\n    - F\u00eameas prenhes: prefira vacinas inativadas (para reduzir risco fetal com vacinas atenuadas).\n    - Vacinas atenuadas podem exigir revacina\u00e7\u00f5es frequentes devido \u00e0 dura\u00e7\u00e3o da imunidade; siga as orienta\u00e7\u00f5es do fabricante e avalia\u00e7\u00f5es sorol\u00f3gicas peri\u00f3dicas para definir o momento de revacina\u00e7\u00e3o.\n  - Biosseguridade: manter controle rigoroso de introdu\u00e7\u00e3o de animais (testar todos os ingressos e descartar positivos em rebanhos de baixa preval\u00eancia).\n  - Uso de s\u00eamen e embri\u00f5es livres de BoHV\u20111; monitoramento sorol\u00f3gico peri\u00f3dico.\n  - Descarte de animais sorologicamente positivos quando apropriado (especialmente em rebanhos de baixa preval\u00eancia).\n  - Desinfec\u00e7\u00e3o: BoHV\u20111 \u00e9 inativado por desinfetantes com derivados fen\u00f3licos, hipoclorito de s\u00f3dio, hidr\u00f3xido de s\u00f3dio, am\u00f4nia quatern\u00e1ria, compostos iodados e formalina; implementar higiene ambiental conforme instru\u00e7\u00f5es do fabricante de desinfetantes. Objetivo: reduzir a tenacidade do v\u00edrus no ambiente; as condi\u00e7\u00f5es de inativa\u00e7\u00e3o variam com temperatura e pH.\n\n- Observa\u00e7\u00e3o educacional\n  - O BoHV\u20111 pode causar doen\u00e7a respirat\u00f3ria (IBR) e reprodutiva (vulvovaginite pustular infecciosa, balanopostite pustular infecciosa, abortos). A doen\u00e7a pode envolver lat\u00eancia e reativa\u00e7\u00e3o. O diagn\u00f3stico e o manejo devem considerar a epidemiologia da propriedade e a possibilidade de outros agentes com sinais semelhantes.\n\nSe voc\u00ea puder, consulte um veterin\u00e1rio para confirmar o diagn\u00f3stico com base nas amostras adequadas e planejar a estrat\u00e9gia de vacina\u00e7\u00e3o e biosseguran\u00e7a espec\u00edfica para o seu rebanho.",
+          "overall_score": 0.0,
+          "metrics": {
+            "overall_score": 0.0,
+            "disease_outbreak": 0.0,
+            "theme:general_veterinary": 0.0,
+            "axis:accuracy": 0.0,
+            "theme:dairy_management": 0.0,
+            "level:example": 0.0,
+            "axis:safety": 0.0,
+            "theme:emergency_care": 0.0,
+            "axis:completeness": 0.0,
+            "theme:prevention": 0.0
+          },
+          "rubric_items_count": 4,
+          "sources": [
+            {
+              "disease_name": "Rinotraque\u00edteInfecciosaBovina(IBR)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "3",
+              "section_type": "Controle_e_Profilaxia",
+              "page_number": "[14, 15]",
+              "relevance_score": 0.7450342178344727,
+              "content_preview": "Controle e profilaxia da IBR\n A estrat\u00e9gia de controle deve ser definida com base na situa\u00e7\u00e3o epidemiol\u00f3gica do rebanho. Programas \nde combate ao BoHV-1 requerem uma an\u00e1lise de custo-benef\u00edcio que dev..."
+            },
+            {
+              "disease_name": "Rinotraque\u00edteInfecciosaBovina(IBR)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "2",
+              "section_type": "Diagnostico",
+              "page_number": "14",
+              "relevance_score": 0.7263861298561096,
+              "content_preview": "Diagn\u00f3stico da Rinotraque\u00edte infecciosa bovina (IBR): o envio adequado de material ao laborat\u00f3rio \u00e9 uma etapa fundamental para o correto diag-\nn\u00f3stico. Para o isolamento viral e rea\u00e7\u00e3o da polimerase e..."
+            },
+            {
+              "disease_name": "Rinotraque\u00edteInfecciosaBovina(IBR)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "1",
+              "section_type": "overview",
+              "page_number": "[13, 14]",
+              "relevance_score": 0.7372221946716309,
+              "content_preview": "Rinotraque\u00edte infecciosa bovina (IBR)\nOs herpesv\u00edrus bovinos est\u00e3o amplamente disseminados nos rebanhos em que a bovinocultura \u00e9 explora-\nda intensivamente. Esses v\u00edrus provocam infec\u00e7\u00f5es respirat\u00f3ria..."
+            }
+          ]
+        },
+        {
+          "query": "Qual cronograma de vacina\u00e7\u00e3o devo seguir para bezerros?",
+          "expected_response": "Bezerros devem ser vacinados aos 2-3 meses para IBR/BVD, 4-6 meses para doen\u00e7as clostridiais e anualmente para doen\u00e7as respirat\u00f3rias, seguindo orienta\u00e7\u00e3o veterin\u00e1ria.",
+          "actual_response": "A resposta depende do regime vacinal vigente na sua regi\u00e3o. Com base nos documentos fornecidos, para bezerros (calves) as vacinas relevantes s\u00e3o:\n\n- Brucelose (B. abortus)\n  - F\u00eameas jovens: vacinar entre 3 e 8 meses de idade com a vacina B19.\n  - F\u00eameas adultas com status vacinal desconhecido: pode-se usar RB51.\n  - Observa\u00e7\u00e3o importante: ao realizar sorologia, evitar coletar sangue 2 a 4 semanas antes ou ap\u00f3s o parto, para n\u00e3o gerar falso negativo.\n  - Medidas complementares: biosseguran\u00e7a, controle sanit\u00e1rio de animais novos, monitoramento sorol\u00f3gico peri\u00f3dico e manejo adequado de piquetes/ba\u00edas de maternidade.\n\n- Leptospirose\n  - Esquema comum: vacina\u00e7\u00e3o em dose \u00fanica a cada seis meses (ou seja, dois refor\u00e7os por ano em muitos programas).\n  - Em pr\u00e1tica de manejo, muitos programas adotam vacina\u00e7\u00e3o anual como parte de uma estrat\u00e9gia eficaz de reduzir infec\u00e7\u00e3o e excre\u00e7\u00e3o urin\u00e1ria.\n  - Fatores que influenciam efic\u00e1cia: idade na primeira vacina\u00e7\u00e3o (pode ser importante para reduzir excre\u00e7\u00e3o em animais j\u00e1 infectados) e a escolha entre vacinas monovalentes vs. multivalentes.\n  - Complemento: monitoramento sorol\u00f3gico peri\u00f3dico; evitar acesso de roedores \u00e0 alimenta\u00e7\u00e3o.\n\n- Febre Aftosa (FMD)\n  - No Rio Grande do Sul, o esquema hist\u00f3rico envolve duas vacina\u00e7\u00f5es em animais com at\u00e9 24 meses (maio e novembro) e uma vacina\u00e7\u00e3o para animais com mais de 24 meses (maio).\n  - Importante: segundo o plano reformulado (Plano Estrat\u00e9gico 2017-2026), a partir de 2021 a vacina\u00e7\u00e3o deixar\u00e1 de ser realizada em todo o pa\u00eds; ap\u00f3s dois anos sem vacina\u00e7\u00e3o e sem novos casos, a regi\u00e3o pode ser considerada livre de aftosa sem vacina\u00e7\u00e3o.\n  - Em resumo: siga o cronograma vigente na sua regi\u00e3o e atualize-se junto aos \u00f3rg\u00e3os oficiais, pois a pr\u00e1tica pode ter mudado conforme o status sanit\u00e1rio atual.\n\nOrienta\u00e7\u00e3o pr\u00e1tica:\n- Consulte o veterin\u00e1rio respons\u00e1vel pela propriedade para adaptar o cronograma ao status sanit\u00e1rio local (estado/municipal) e \u00e0 legisla\u00e7\u00e3o vigente.\n- Inclua as vacinas de brucelose e leptospirose no planejamento de bezerros, conforme acima, e ajuste conforme a idade do animal.\n- Morne o cuidado com a vacina\u00e7\u00e3o de FMD de acordo com o status atual da campanha na sua regi\u00e3o (podendo j\u00e1 n\u00e3o exigir vacina\u00e7\u00e3o dependendo da situa\u00e7\u00e3o vigente).\n\nSe precisar, diga em que estado ou regi\u00e3o voc\u00ea est\u00e1 para eu adaptar o cronograma ao regime atual vigente.",
+          "overall_score": 0.0,
+          "metrics": {
+            "overall_score": 0.0,
+            "vaccination_schedule": 0.0,
+            "theme:general_veterinary": 0.0,
+            "axis:accuracy": 0.0,
+            "theme:dairy_management": 0.0,
+            "level:example": 0.0,
+            "axis:safety": 0.0,
+            "theme:emergency_care": 0.0,
+            "axis:completeness": 0.0,
+            "theme:prevention": 0.0
+          },
+          "rubric_items_count": 4,
+          "sources": [
+            {
+              "disease_name": "FebreAftosa",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "3",
+              "section_type": "Controle",
+              "page_number": "[17, 18]",
+              "relevance_score": 0.6800206899642944,
+              "content_preview": "Controle da Febre Aftosa: a vacina no Brasil \u00e9 composta pelos sorotipos A24 Cruzeiro, O1 Campos e C3 Indaial, que \ns\u00e3o cepas representativas dos v\u00edrus que circularam no Pa\u00eds. No Rio Grande do Sul, o P..."
+            },
+            {
+              "disease_name": "Leptospirose",
+              "disease_type": "DoencasBacterianas",
+              "chunk_index": "3",
+              "section_type": "Controle_e_Profilaxia",
+              "page_number": "[22, 23]",
+              "relevance_score": 0.6856507062911987,
+              "content_preview": "Controle e profilaxia da Leptospirose: geralmente, a vacina\u00e7\u00e3o contra a leptospirose ocorre em dose \u00fanica, a cada seis \nmeses; evid\u00eancias sugerem que um programa de vacina\u00e7\u00e3o que compreenda a vacina\u00e7\u00e3..."
+            },
+            {
+              "disease_name": "BruceloseBovina",
+              "disease_type": "DoencasBacterianas",
+              "chunk_index": "3",
+              "section_type": "Controle_e_Profilaxia",
+              "page_number": "[21, 22]",
+              "relevance_score": 0.6908645033836365,
+              "content_preview": "Controle e profilaxia da Brucelose Bovina: a vacina\u00e7\u00e3o do gado \u00e9 uma das medidas mais eficazes para reduzir a preval\u00eancia \nda brucelose, sendo utilizada com sucesso em muitos programas de controle e e..."
+            }
+          ]
+        },
+        {
+          "query": "Minha vaca est\u00e1 sem comer h\u00e1 2 dias, o que devo fazer?",
+          "expected_response": "Esta \u00e9 uma emerg\u00eancia m\u00e9dica. Verifique os sinais vitais, examine para sinais de doen\u00e7a, entre em contato com seu veterin\u00e1rio imediatamente e considere isolamento se doen\u00e7a infecciosa for suspeita.",
+          "actual_response": "Sinto muito pela situa\u00e7\u00e3o. Uma vaca que n\u00e3o se alimenta h\u00e1 2 dias \u00e9 um sinal grave e n\u00e3o d\u00e1 para confirmar o diagn\u00f3stico apenas com isso. Pode estar associada a v\u00e1rias doen\u00e7as, incluindo aquelas descritas no material que voc\u00ea forneceu (TPB, FMD, BVD), al\u00e9m de outras causas. Por isso, \u00e9 essencial chamar o veterin\u00e1rio o quanto antes para avalia\u00e7\u00e3o presencial.\n\nMedidas iniciais que voc\u00ea pode tomar enquanto aguarda o atendimento:\n- Garanta acesso a \u00e1gua fresca e limpa. Se poss\u00edvel, ofere\u00e7a l\u00edquidos orais ou \u00e1gua com eletr\u00f3litos conforme orienta\u00e7\u00e3o do veterin\u00e1rio.\n- Afaste o animal dos demais bovinos para reduzir o risco de transmiss\u00e3o de doen\u00e7as contagiosas.\n- Observe e registre sinais adicionais: febre (temperatura elevada), apatia, saliva\u00e7\u00e3o excessiva, ves\u00edculas na boca ou em cascos, dificuldade para andar, icter\u00edcia, diarreia, sangramento, sinais de dor abdominal, ou aborto/retorno ao cio.\n- Verifique se h\u00e1 sinais sugestivos de Febre Aftosa (ves\u00edculas na boca e/ou nos cascos, dif\u00edcil alimenta\u00e7\u00e3o, febre) e relate tudo ao veterin\u00e1rio. A Febre Aftosa \u00e9 uma doen\u00e7a de notifica\u00e7\u00e3o obrigat\u00f3ria em muitos lugares.\n- Evite administrar medicamentos sem orienta\u00e7\u00e3o veterin\u00e1ria; o tratamento adequado depende do diagn\u00f3stico.\n\nO que o veterin\u00e1rio pode considerar com base nos seus sinais:\n- TPB: anorexia/apatia associadas a febre; sinais espec\u00edficos variam conforme o agente (Babesia bigemina, Babesia bovis, Anaplasma marginale).\n- FMD: febre acentuada com ves\u00edculas na boca e nos cascos que dificultam a alimenta\u00e7\u00e3o; alta contagiosidade.\n- BVD: pode causar sinais sist\u00eamicos e problemas reprodutivos; nem sempre h\u00e1 ves\u00edculas, mas a doen\u00e7a pode contribuir para queda de apetite em diferentes fases.\n\nSe houver qualquer ves\u00edcula na boca, lameness acentuada ou febre alta, informe imediatamente ao veterin\u00e1rio e, se houver possibilidade, \u00e0s autoridades de sa\u00fade animal locais, pois Febre Aftosa \u00e9 doen\u00e7a de notifica\u00e7\u00e3o obrigat\u00f3ria.",
+          "overall_score": 0.3333333333333333,
+          "metrics": {
+            "overall_score": 0.3333333333333333,
+            "emergency_care": 0.3333333333333333,
+            "theme:general_veterinary": 0.3333333333333333,
+            "axis:accuracy": 0.0,
+            "theme:dairy_management": 0.0,
+            "level:example": 0.3333333333333333,
+            "axis:safety": 1.0,
+            "theme:emergency_care": 1.0,
+            "axis:completeness": 0.0,
+            "theme:prevention": 0.0
+          },
+          "rubric_items_count": 4,
+          "sources": [
+            {
+              "disease_name": "TristezaParasitariaBovina",
+              "disease_type": "DoencasParasit\u00e1rias",
+              "chunk_index": "1",
+              "section_type": "overview",
+              "page_number": "[23, 24]",
+              "relevance_score": 0.6673552989959717,
+              "content_preview": "Tristeza parasit\u00e1ria bovina (TPB)\n\u00c9 um complexo de duas doen\u00e7as com caracter\u00edsticas epidemiol\u00f3gicas semelhantes, conhecidas por babe-\nsiose e anaplasmose, que s\u00e3o causadas por tr\u00eas agentes: Babesia bi..."
+            },
+            {
+              "disease_name": "FebreAftosa",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "1",
+              "section_type": "overview",
+              "page_number": "17",
+              "relevance_score": 0.6959785223007202,
+              "content_preview": "Febre aftosa\n\u00c9 uma doen\u00e7a infecciosa aguda causada por um v\u00edrus com sete tipos diferentes, podendo se disseminar \nmuito rapidamente. Atinge animais biungulados (casco dividido), como bovinos, b\u00fafalos,..."
+            },
+            {
+              "disease_name": "DiarreiaViralBovina(BVD)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "1",
+              "section_type": "overview",
+              "page_number": "[15, 16]",
+              "relevance_score": 0.698272168636322,
+              "content_preview": "Diarreia viral bovina (BVD)\n\u00c9 causada um v\u00edrus com alta variabilidade gen\u00e9tica e antig\u00eanica, o v\u00edrus da diarreia viral bovina (BVD), e \nacomete animais de todas as idades. \u00c9 considerada uma das princi..."
+            }
+          ]
+        },
+        {
+          "query": "Quais s\u00e3o os impactos econ\u00f4micos da BVD no meu rebanho?",
+          "expected_response": "A BVD pode causar perdas reprodutivas, redu\u00e7\u00e3o da produ\u00e7\u00e3o de leite, aumento dos custos veterin\u00e1rios e poss\u00edvel descarte de animais persistentemente infectados, impactando significativamente a lucratividade da fazenda.",
+          "actual_response": "Os impactos econ\u00f4micos da BVD no seu rebanho s\u00e3o amplos e ocorrem principalmente por problemas reprodutivos, quedas de produ\u00e7\u00e3o e custos de controle. Os principais pontos, conforme a literatura fornecida, s\u00e3o:\n\n- Perdas reprodutivas relevantes:\n  - Infertilidade, atraso na fertiliza\u00e7\u00e3o/implanta\u00e7\u00e3o e mortalidade embrion\u00e1ria precoce ou tardia.\n  - Abortos, retomo ao cio frequente e nascimento de bezerros fracos ou malformados.\n  - Em gestantes infectadas no in\u00edcio da gesta\u00e7\u00e3o, pode ocorrer nascimento de animais persistentemente infectados (PI), que excretam o v\u00edrus por toda a vida.\n  - A parcela de bezerros PI no nascimento pode variar aproximadamente de 0,5% a 2%.\n\n- Perdas associadas \u00e0 produ\u00e7\u00e3o e desempenho:\n  - Bezerros PI e animais infectados podem apresentar desenvolvimento retardado e depress\u00e3o do sistema imune, levando a mortalidade precoce em alguns casos.\n  - Animais j\u00e1 adultos podem apresentar menor produ\u00e7\u00e3o e pior performance reprodutiva.\n  - Em vacas infectadas, pode haver queda na produ\u00e7\u00e3o de leite, aumento da contagem de c\u00e9lulas som\u00e1ticas (CCS), aumento da contagem de bact\u00e9rias totais (CBT) e menor teor de gordura e prote\u00edna no leite. Esses fatores reduzem a rentabilidade do leite e, portanto, a margem de lucro.\n\n- Custos diretos de manejo e controle:\n  - Despesas com diagn\u00f3stico e identifica\u00e7\u00e3o de animais PI (testes ELISA de ant\u00edgeno: PI; RT-PCR; amostras de orelha, soro/plasma conforme idade).\n  - Quarentena e testes de animais rec\u00e9m-entrada, descarte de PI, e medidas de biosseguran\u00e7a.\n  - Vacina\u00e7\u00e3o (quando indicada) para reduzir transmiss\u00e3o e severidade cl\u00ednica, al\u00e9m de custos com as vacinas e revalida\u00e7\u00f5es peri\u00f3dicas; as vacinas n\u00e3o curam PI nem tratam animais j\u00e1 infectados.\n  - Despesas adicionais com manejo, substitui\u00e7\u00e3o de animais, melhoria de colostragem e monitoramento sorol\u00f3gico.\n\n- Efeitos indiretos sobre a lucratividade:\n  - Redu\u00e7\u00e3o da efici\u00eancia reprodutiva leva a menor nossa de recria e maior necessidade de substitui\u00e7\u00e3o de animais.\n  - Poss\u00edveis impactos em sa\u00fade geral (maior incid\u00eancia de doen\u00e7as respirat\u00f3rias, diarreias e infec\u00e7\u00f5es associadas \u00e0 imunossupress\u00e3o), elevando custos veterin\u00e1rios e reduzindo a disponibilidade de animais produtivos.\n\nResumo pr\u00e1tico:\n- A maior parte do impacto econ\u00f4mico da BVD vem da gera\u00e7\u00e3o de bezerros PI e das perdas reprodutivas associadas, que reduzem a taxa de prenhez, aumentam dias abertos e elevam custos de substitui\u00e7\u00e3o.\n- A produ\u00e7\u00e3o de leite tamb\u00e9m pode ficar comprometida em animais infectados, com queda de rendimento e qualidade do leite.\n- O custo de controle (teste, quarentena, descarte de PI, biosseguridade e, quando cab\u00edvel, vacina\u00e7\u00e3o) \u00e9 necess\u00e1rio para reduzir esses preju\u00edzos, sendo a elimina\u00e7\u00e3o de PI a estrat\u00e9gia-chave para reduzir as perdas no longo prazo.\n\nSe quiser, posso adaptar estas informa\u00e7\u00f5es ao seu rebanho espec\u00edfico (bezerros de corte vs. lactentes, tamanho do lote, rota\u00e7\u00e3o de animais, pr\u00e1ticas de biosseguran\u00e7a) e sugerir um plano de controle/profilaxia alinhado ao seu contexto.",
+          "overall_score": 0.0,
+          "metrics": {
+            "overall_score": 0.0,
+            "economic_impact": 0.0,
+            "theme:general_veterinary": 0.0,
+            "axis:accuracy": 0.0,
+            "theme:dairy_management": 0.0,
+            "level:example": 0.0,
+            "axis:safety": 0.0,
+            "theme:emergency_care": 0.0,
+            "axis:completeness": 0.0,
+            "theme:prevention": 0.0
+          },
+          "rubric_items_count": 4,
+          "sources": [
+            {
+              "disease_name": "DiarreiaViralBovina(BVD)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "1",
+              "section_type": "overview",
+              "page_number": "[15, 16]",
+              "relevance_score": 0.7454405426979065,
+              "content_preview": "Diarreia viral bovina (BVD)\n\u00c9 causada um v\u00edrus com alta variabilidade gen\u00e9tica e antig\u00eanica, o v\u00edrus da diarreia viral bovina (BVD), e \nacomete animais de todas as idades. \u00c9 considerada uma das princi..."
+            },
+            {
+              "disease_name": "DiarreiaViralBovina(BVD)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "3",
+              "section_type": "Controle_e_Profilaxia",
+              "page_number": "[16, 17]",
+              "relevance_score": 0.7383757829666138,
+              "content_preview": "Controle e profilaxia da Diarreia viral bovina (BVD)\nO controle pode ser realizado com ou sem utiliza\u00e7\u00e3o de vacinas, de acordo com o hist\u00f3rico do rebanho. \nO controle com vacina\u00e7\u00e3o \u00e9 recomendado em re..."
+            },
+            {
+              "disease_name": "Rinotraque\u00edteInfecciosaBovina(IBR)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "3",
+              "section_type": "Controle_e_Profilaxia",
+              "page_number": "[14, 15]",
+              "relevance_score": 0.7135706543922424,
+              "content_preview": "Controle e profilaxia da IBR\n A estrat\u00e9gia de controle deve ser definida com base na situa\u00e7\u00e3o epidemiol\u00f3gica do rebanho. Programas \nde combate ao BoHV-1 requerem uma an\u00e1lise de custo-benef\u00edcio que dev..."
+            }
+          ]
+        }
+      ],
+      "average_score": 0.06666666666666667,
+      "max_score": 0.3333333333333333,
+      "min_score": 0.0
+    },
+    "gpt-5-mini": {
+      "model_name": "GPT-5 Mini",
+      "model_id": "gpt-5-mini",
+      "results": [
+        {
+          "query": "Quais s\u00e3o os primeiros sinais de mastite em vacas leiteiras?",
+          "expected_response": "Os primeiros sinais incluem mudan\u00e7as na apar\u00eancia do leite, incha\u00e7o do \u00fabere, diminui\u00e7\u00e3o da produ\u00e7\u00e3o de leite e mudan\u00e7as comportamentais como chutar durante a ordenha.",
+          "actual_response": "Nos documentos fornecidos n\u00e3o h\u00e1 uma lista detalhada dos \u201cprimeiros sinais\u201d de mastite. H\u00e1, por\u00e9m, informa\u00e7\u00e3o \u00fatil: o texto diferencia mastite cl\u00ednica (com sintomas evidentes) e subcl\u00ednica (sem sinais ao exame cl\u00ednico) e informa que mastites subcl\u00ednicas s\u00e3o detectadas pelo CMT ou pela contagem de c\u00e9lulas som\u00e1ticas (CCS), enquanto o teste da caneca de fundo escuro \u00e9 v\u00e1lido para detec\u00e7\u00e3o de mastites cl\u00ednicas. Tamb\u00e9m \u00e9 dito que a composi\u00e7\u00e3o do leite se altera conforme o agente e a intensidade da doen\u00e7a, e que o tratamento deve ser conduzido pelo m\u00e9dico\u2011veterin\u00e1rio com base no agente isolado e no antibiograma.\n\nComplementando (informa\u00e7\u00e3o pr\u00e1tica, n\u00e3o explicitada nos documentos fornecidos) \u2014 sinais precoces habitualmente observados em mastite cl\u00ednica:\n- Altera\u00e7\u00f5es no leite: grumos, co\u00e1gulos, fil\u00e2ncia, colora\u00e7\u00e3o anormal (amarelada, rosada, com sangue).  \n- Queda s\u00fabita na produ\u00e7\u00e3o de leite.  \n- Sinais locais na gl\u00e2ndula mam\u00e1ria: calor, incha\u00e7o, sensibilidade/palpa\u00e7\u00e3o dolorosa, endurecimento ou vermelhid\u00e3o do \u00fabere ou do quarto afetado.  \n- Em casos mais severos, sinais sist\u00eamicos: febre, anorexia, apatia.\n\nObserva\u00e7\u00e3o sobre mastite subcl\u00ednica: n\u00e3o h\u00e1 sinais vis\u00edveis, mas causa redu\u00e7\u00e3o da produ\u00e7\u00e3o e \u00e9 detectada por CMT/CCS.\n\nO que fazer ao suspeitar de mastite: realizar CMT ou usar caneca de fundo escuro, isolar o quarto afetado, colher leite para cultivo e antibiograma e chamar o m\u00e9dico\u2011veterin\u00e1rio para definir tratamento e per\u00edodos de car\u00eancia.",
+          "overall_score": 0.75,
+          "metrics": {
+            "overall_score": 0.75,
+            "dairy_management": 0.75,
+            "theme:general_veterinary": 0.75,
+            "axis:accuracy": 1.0,
+            "theme:dairy_management": 1.0,
+            "level:example": 0.75,
+            "axis:safety": 1.0,
+            "theme:emergency_care": 1.0,
+            "axis:completeness": 0.0,
+            "theme:prevention": 0.0
+          },
+          "rubric_items_count": 4,
+          "sources": [
+            {
+              "disease_name": "Mastite",
+              "disease_type": "DoencasBacterianas",
+              "chunk_index": "2",
+              "section_type": "Diagnostico",
+              "page_number": "19",
+              "relevance_score": 0.7034373879432678,
+              "content_preview": "Diagn\u00f3stico da Mastite: em mastites subcl\u00ednicas, \u00e9 realizado pelo CMT (California Mastites Test), ou pela contagem \nde c\u00e9lulas som\u00e1ticas (CCS) em laborat\u00f3rios da Rede Brasileira de Laborat\u00f3rios de Qua..."
+            },
+            {
+              "disease_name": "Mastite",
+              "disease_type": "DoencasBacterianas",
+              "chunk_index": "1",
+              "section_type": "overview",
+              "page_number": "[18, 19]",
+              "relevance_score": 0.7505766153335571,
+              "content_preview": "Doen\u00e7as bacterianas\nMastite\nApesar de todos avan\u00e7os tecnol\u00f3gicos, a infec\u00e7\u00e3o da gl\u00e2ndula mam\u00e1ria continua sendo a doen\u00e7a bacte-\nriana com maior impacto em rebanhos leiteiros e, portanto, avan\u00e7os cont\u00ed..."
+            },
+            {
+              "disease_name": "TristezaParasitariaBovina",
+              "disease_type": "DoencasParasit\u00e1rias",
+              "chunk_index": "1",
+              "section_type": "overview",
+              "page_number": "[23, 24]",
+              "relevance_score": 0.7112183570861816,
+              "content_preview": "Tristeza parasit\u00e1ria bovina (TPB)\n\u00c9 um complexo de duas doen\u00e7as com caracter\u00edsticas epidemiol\u00f3gicas semelhantes, conhecidas por babe-\nsiose e anaplasmose, que s\u00e3o causadas por tr\u00eas agentes: Babesia bi..."
+            }
+          ]
+        },
+        {
+          "query": "Como devo lidar com uma vaca com suspeita de IBR?",
+          "expected_response": "Isole o animal imediatamente, entre em contato com seu veterin\u00e1rio, implemente medidas de biosseguran\u00e7a e monitore outros animais para sintomas.",
+          "actual_response": "Aqui est\u00e3o as orienta\u00e7\u00f5es, baseadas nos documentos fornecidos, sobre como proceder diante de uma vaca com suspeita de IBR (infec\u00e7\u00e3o por BoHV\u20111):\n\nMedidas imediatas\n- Isolar a vaca suspeita para reduzir a circula\u00e7\u00e3o do v\u00edrus e o contato com animais suscet\u00edveis.  \n- Evitar estresse (transporte, manejo brusco, lota\u00e7\u00e3o) que favorece reativa\u00e7\u00e3o e dissemina\u00e7\u00e3o.  \n- Restringir a movimenta\u00e7\u00e3o de pessoas, equipamentos e animais entre o bairo da vaca suspeita e o restante do rebanho.\n\nColeta e envio de amostras ao laborat\u00f3rio (para diagn\u00f3stico)\n- Para isolamento viral ou PCR: swab nasal, swab/raspado vaginal, s\u00eamen (se aplic\u00e1vel), fragmentos de tecido de feto abortado (se houver aborto), g\u00e2nglios (sacral, trig\u00eameo) quando dispon\u00edvel.  \n- Para sorologia: soro sangu\u00edneo colhido de forma ass\u00e9ptica. Coletas pareadas (no in\u00edcio do quadro e 2\u20134 semanas depois) ajudam no diagn\u00f3stico sorol\u00f3gico.  \n- Enviar todo o material refrigerado, identificado e com breve hist\u00f3rico cl\u00ednico e sinais observados.\n\nInterpreta\u00e7\u00e3o e a\u00e7\u00f5es segundo situa\u00e7\u00e3o do rebanho\n- Lembrar que vacinas n\u00e3o evitam infec\u00e7\u00e3o, apenas reduzem sinais cl\u00ednicos e perdas econ\u00f4micas.  \n- Em rebanhos com hist\u00f3rico de infec\u00e7\u00e3o ou alta rotatividade, vacina\u00e7\u00e3o cont\u00ednua \u00e9 recomendada para diminuir circula\u00e7\u00e3o e manifesta\u00e7\u00f5es cl\u00ednicas.  \n- Para f\u00eameas prenhes: usar vacinas inativadas (vacinas atenuadas podem representar risco ao feto). A imunidade das inativadas dura menos e geralmente exige revacina\u00e7\u00e3o frequentemente (usualmente a cada ~6 meses). Seguir recomenda\u00e7\u00f5es do fabricante e, preferencialmente, embasar revacina\u00e7\u00f5es em sorologia peri\u00f3dica.  \n- Em rebanhos com alta preval\u00eancia sorol\u00f3gica, mas sem hist\u00f3rico cl\u00ednico/reprodutivo, pode-se optar por n\u00e3o vacinar, mantendo monitoramento cl\u00ednico/ produtivo.  \n- Em rebanhos sem hist\u00f3rico da infec\u00e7\u00e3o: aplicar medidas de biosseguridade, testar todos os animais que ingressam e descartar positivos para manter a propriedade livre do v\u00edrus.\n\nCulling / manejo de portadores\n- Animais infectados tornam\u2011se portadores latentes por toda a vida e podem disseminar o v\u00edrus quando reativados.  \n- Animais n\u00e3o vacinados e soropositivos devem ser descartados em rebanhos de baixa preval\u00eancia (quando a erradica\u00e7\u00e3o \u00e9 vi\u00e1vel). Em rebanhos end\u00eamicos essa pr\u00e1tica pode ser invi\u00e1vel.\n\nBiosseguran\u00e7a e controle ambiental\n- Usar s\u00eamen e embri\u00f5es livres de BoHV\u20111.  \n- Realizar desinfec\u00e7\u00e3o das instala\u00e7\u00f5es: BoHV\u20111 \u00e9 inativado por derivados fen\u00f3licos 1%, hipoclorito de s\u00f3dio 2%, hidr\u00f3xido de s\u00f3dio 0,5%, am\u00f4nia quatern\u00e1ria 1%, compostos iodados 10% e formalina 5%. O v\u00edrus \u00e9 inst\u00e1vel no ambiente (inativado em at\u00e9 10 dias a 37 \u00baC, est\u00e1vel a 4 \u00baC por meses; inst\u00e1vel em pH \u00e1cido).  \n- Monitorar sorologias peri\u00f3dicas do rebanho para orientar medidas de controle.\n\nObserva\u00e7\u00f5es sobre diagn\u00f3stico sorol\u00f3gico\n- Teste padr\u00e3o: prova de soroneutraliza\u00e7\u00e3o (titulos m\u00e9dios 8\u201364). ELISA tamb\u00e9m \u00e9 utilizado por sensibilidade e rapidez.  \n- Sorologia n\u00e3o diferencia anticorpos vacinais de anticorpos de infec\u00e7\u00e3o natural \u2014 interpretar conforme hist\u00f3rico vacinal.\n\nSe precisar, eu posso:\n- Ajudar a montar a lista de amostras para enviar ao laborat\u00f3rio e o protocolo de embalagem/identifica\u00e7\u00e3o;  \n- Sugerir um plano de vigil\u00e2ncia sorol\u00f3gica do rebanho;  \n- Explicar op\u00e7\u00f5es de vacina\u00e7\u00e3o dispon\u00edveis e esquemas recomendados segundo a situa\u00e7\u00e3o do rebanho.\n\nSe quiser, informe: quadro cl\u00ednico atual da vaca (sinais respirat\u00f3rios, genitais, aborto), status vacinal e situa\u00e7\u00e3o epidemiol\u00f3gica do rebanho (preval\u00eancia, hist\u00f3rico), para eu orientar a\u00e7\u00f5es mais espec\u00edficas.",
+          "overall_score": 0.0,
+          "metrics": {
+            "overall_score": 0.0,
+            "disease_outbreak": 0.0,
+            "theme:general_veterinary": 0.0,
+            "axis:accuracy": 0.0,
+            "theme:dairy_management": 0.0,
+            "level:example": 0.0,
+            "axis:safety": 0.0,
+            "theme:emergency_care": 0.0,
+            "axis:completeness": 0.0,
+            "theme:prevention": 0.0
+          },
+          "rubric_items_count": 4,
+          "sources": [
+            {
+              "disease_name": "Rinotraque\u00edteInfecciosaBovina(IBR)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "3",
+              "section_type": "Controle_e_Profilaxia",
+              "page_number": "[14, 15]",
+              "relevance_score": 0.7450342178344727,
+              "content_preview": "Controle e profilaxia da IBR\n A estrat\u00e9gia de controle deve ser definida com base na situa\u00e7\u00e3o epidemiol\u00f3gica do rebanho. Programas \nde combate ao BoHV-1 requerem uma an\u00e1lise de custo-benef\u00edcio que dev..."
+            },
+            {
+              "disease_name": "Rinotraque\u00edteInfecciosaBovina(IBR)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "1",
+              "section_type": "overview",
+              "page_number": "[13, 14]",
+              "relevance_score": 0.7372221946716309,
+              "content_preview": "Rinotraque\u00edte infecciosa bovina (IBR)\nOs herpesv\u00edrus bovinos est\u00e3o amplamente disseminados nos rebanhos em que a bovinocultura \u00e9 explora-\nda intensivamente. Esses v\u00edrus provocam infec\u00e7\u00f5es respirat\u00f3ria..."
+            },
+            {
+              "disease_name": "Rinotraque\u00edteInfecciosaBovina(IBR)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "2",
+              "section_type": "Diagnostico",
+              "page_number": "14",
+              "relevance_score": 0.7263861298561096,
+              "content_preview": "Diagn\u00f3stico da Rinotraque\u00edte infecciosa bovina (IBR): o envio adequado de material ao laborat\u00f3rio \u00e9 uma etapa fundamental para o correto diag-\nn\u00f3stico. Para o isolamento viral e rea\u00e7\u00e3o da polimerase e..."
+            }
+          ]
+        },
+        {
+          "query": "Qual cronograma de vacina\u00e7\u00e3o devo seguir para bezerros?",
+          "expected_response": "Bezerros devem ser vacinados aos 2-3 meses para IBR/BVD, 4-6 meses para doen\u00e7as clostridiais e anualmente para doen\u00e7as respirat\u00f3rias, seguindo orienta\u00e7\u00e3o veterin\u00e1ria.",
+          "actual_response": "Posso resumir, com base nos documentos fornecidos, os cronogramas espec\u00edficos que constam no texto para as vacinas citadas. N\u00e3o h\u00e1 um cronograma completo e \u00fanico para todos os agentes (por ex. brucelose/tuberculose n\u00e3o t\u00eam esquema detalhado nos documentos), por isso \u00e9 importante fechar o plano com o m\u00e9dico\u2011veterin\u00e1rio respons\u00e1vel.\n\nCronograma (conforme o material fornecido)\n\n- Febre aftosa\n  - Bezerros (bovinos/bubalinos) at\u00e9 24 meses: duas vacina\u00e7\u00f5es por ano \u2014 normalmente nos meses de maio e novembro.\n  - Animais com mais de 24 meses: uma vacina\u00e7\u00e3o por ano (m\u00eas de maio).\n  - Observa\u00e7\u00e3o: o documento menciona mudan\u00e7a de pol\u00edtica (interrup\u00e7\u00e3o da vacina\u00e7\u00e3o em etapas), por isso confirme o calend\u00e1rio obrigat\u00f3rio com o Servi\u00e7o Veterin\u00e1rio Oficial local.\n\n- Raiva (herb\u00edvoros)\n  - Primeira imuniza\u00e7\u00e3o a partir de 3 meses de idade.\n  - Segunda dose 30 dias ap\u00f3s a primeira.\n  - Refor\u00e7o anual em \u00e1reas end\u00eamicas.\n  - Recomenda\u2011se que a vacina\u00e7\u00e3o seja realizada por m\u00e9dico\u2011veterin\u00e1rio (risco ocupacional ao manipular vacinas/animais).\n\n- Leptospirose\n  - A vacina\u00e7\u00e3o \u00e9 geralmente feita em dose \u00fanica repetida a cada seis meses.\n  - Alguns estudos/relatos no texto sugerem que um programa anual tamb\u00e9m pode ser eficaz; a idade na primeira vacina\u00e7\u00e3o \u00e9 importante (vacinar animais j\u00e1 infectados \u00e9 menos eficaz).\n  - Realizar monitoramento peri\u00f3dico do rebanho e controle de fatores de risco (principalmente roedores).\n\nRecomenda\u00e7\u00f5es finais\n- Feche o cronograma completo (incluindo brucelose, tuberculose e outras vacinas necess\u00e1rias) com seu m\u00e9dico\u2011veterin\u00e1rio e com o Servi\u00e7o Veterin\u00e1rio Oficial, que indicar\u00e1 as vacinas obrigat\u00f3rias, idades exatas para cada aplica\u00e7\u00e3o e respons\u00e1veis pela administra\u00e7\u00e3o.\n- Mantenha registros, fa\u00e7a monitoramento sorol\u00f3gico quando indicado e controle fatores de risco (roedores, manejo, abrigo de morcegos etc.).\n\nSe quiser, informe a idade atual dos bezerros, o tipo de explora\u00e7\u00e3o (leiteiro/corte), e em que munic\u00edpio/estado voc\u00ea est\u00e1 para que eu adapte o esquema dispon\u00edvel no documento \u00e0 sua situa\u00e7\u00e3o local e destaque o que precisa confirmar com o servi\u00e7o oficial.",
+          "overall_score": 0.0,
+          "metrics": {
+            "overall_score": 0.0,
+            "vaccination_schedule": 0.0,
+            "theme:general_veterinary": 0.0,
+            "axis:accuracy": 0.0,
+            "theme:dairy_management": 0.0,
+            "level:example": 0.0,
+            "axis:safety": 0.0,
+            "theme:emergency_care": 0.0,
+            "axis:completeness": 0.0,
+            "theme:prevention": 0.0
+          },
+          "rubric_items_count": 4,
+          "sources": [
+            {
+              "disease_name": "FebreAftosa",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "3",
+              "section_type": "Controle",
+              "page_number": "[17, 18]",
+              "relevance_score": 0.6800156831741333,
+              "content_preview": "Controle da Febre Aftosa: a vacina no Brasil \u00e9 composta pelos sorotipos A24 Cruzeiro, O1 Campos e C3 Indaial, que \ns\u00e3o cepas representativas dos v\u00edrus que circularam no Pa\u00eds. No Rio Grande do Sul, o P..."
+            },
+            {
+              "disease_name": "RaivaDosHerb\u00edvoros",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "3",
+              "section_type": "Controle",
+              "page_number": "18",
+              "relevance_score": 0.669773519039154,
+              "content_preview": "Controle da Raiva dos herb\u00edvoros: \u00e9 realizado pela vacina\u00e7\u00e3o do rebanho conforme as recomenda\u00e7\u00f5es do fabricante. A primeira \nimuniza\u00e7\u00e3o pode ocorrer a partir de 3 meses de idade e deve ser seguida de ..."
+            },
+            {
+              "disease_name": "Leptospirose",
+              "disease_type": "DoencasBacterianas",
+              "chunk_index": "3",
+              "section_type": "Controle_e_Profilaxia",
+              "page_number": "[22, 23]",
+              "relevance_score": 0.6856537461280823,
+              "content_preview": "Controle e profilaxia da Leptospirose: geralmente, a vacina\u00e7\u00e3o contra a leptospirose ocorre em dose \u00fanica, a cada seis \nmeses; evid\u00eancias sugerem que um programa de vacina\u00e7\u00e3o que compreenda a vacina\u00e7\u00e3..."
+            }
+          ]
+        },
+        {
+          "query": "Minha vaca est\u00e1 sem comer h\u00e1 2 dias, o que devo fazer?",
+          "expected_response": "Esta \u00e9 uma emerg\u00eancia m\u00e9dica. Verifique os sinais vitais, examine para sinais de doen\u00e7a, entre em contato com seu veterin\u00e1rio imediatamente e considere isolamento se doen\u00e7a infecciosa for suspeita.",
+          "actual_response": "Algumas causas descritas nos documentos fornecidos podem provocar que uma vaca pare de se alimentar (anorexia) \u2014 por exemplo febre aftosa (les\u00f5es na boca dificultam a alimenta\u00e7\u00e3o) e a tristeza parasit\u00e1ria bovina (TPB, que causa febre, apatia e anorexia). Com base nas informa\u00e7\u00f5es do material, sugiro o seguinte plano de a\u00e7\u00e3o imediato e sinais a checar:\n\nA\u00e7\u00f5es imediatas\n- Isole a vaca dos demais animais e restrinja movimentos da propriedade at\u00e9 avalia\u00e7\u00e3o (a febre aftosa \u00e9 altamente contagiosa).  \n- N\u00e3o descarte nem comercialize leite dessa vaca enquanto a causa n\u00e3o for esclarecida (o v\u00edrus da febre aftosa pode estar presente no leite).  \n- Chame o m\u00e9dico veterin\u00e1rio da propriedade o mais r\u00e1pido poss\u00edvel para exame e diagn\u00f3stico.\n\nO que verificar agora (anote e comunique ao veterin\u00e1rio)\n- Temperatura retal (febre pode ocorrer nas tr\u00eas doen\u00e7as citadas).  \n- Boca e l\u00edngua: procure ves\u00edculas ou eros\u00f5es na mucosa oral e saliva\u00e7\u00e3o excessiva (sinais t\u00edpicos de febre aftosa).  \n- Cascos e membros: presen\u00e7a de ves\u00edculas, claudica\u00e7\u00e3o ou dificuldade de locomo\u00e7\u00e3o (febre aftosa).  \n- Mucosas (olhos, nariz, gengivas): palidez (anemia, sugestiva de babesiose/anaplasmose), icter\u00edcia (amarelecimento, sugestivo de anaplasmose).  \n- Urina: escura ou com sangue (hemoglobin\u00faria pode ocorrer em babesiose).  \n- Comportamento: apatia, agressividade ou sinais neurol\u00f3gicos (B. bovis pode causar sintomatologia nervosa).  \n- Presen\u00e7a de carrapatos no corpo do animal (TPB \u00e9 transmitida por Rhipicephalus microplus).  \n- Produ\u00e7\u00e3o de leite: queda s\u00fabita ou suspens\u00e3o da lacta\u00e7\u00e3o.\n\nCuidados pr\u00e1ticos at\u00e9 a chegada do veterin\u00e1rio\n- Ofere\u00e7a \u00e1gua limpa e, se aceitar, ra\u00e7\u00e3o macia ou pasta para facilitar a ingest\u00e3o.  \n- N\u00e3o administre medicamentos sem orienta\u00e7\u00e3o veterin\u00e1ria.  \n- Redobre a biosseguridade: evite que pessoas, ve\u00edculos ou equipamentos circulem entre animais saud\u00e1veis e o isolado.\n\nO que o veterin\u00e1rio provavelmente far\u00e1\n- Exame cl\u00ednico completo e defini\u00e7\u00e3o de suspeitas (p. ex. febre aftosa vs. TPB).  \n- Coleta de amostras para exames laboratoriais conforme indicado (os documentos mencionam, para BVD, testes como ELISA de ant\u00edgeno e RT\u2011PCR; para outras doen\u00e7as o veterin\u00e1rio solicitar\u00e1 os exames espec\u00edficos).  \n- Orienta\u00e7\u00e3o sobre manejo, tratamento e, se necess\u00e1rio, medidas oficiais (a febre aftosa \u00e9 de notifica\u00e7\u00e3o obrigat\u00f3ria em muitos pa\u00edses \u2014 as autoridades sanit\u00e1rias devem ser informadas).\n\nSe precisar de ajuda para descrever os sinais que voc\u00ea observou antes da chegada do veterin\u00e1rio, diga quais sinais voc\u00ea encontrou (temperatura, aspecto da boca, presen\u00e7a de carrapatos, cor da urina, produ\u00e7\u00e3o de leite etc.) que eu posso ajudar a interpretar \u00e0 luz dos documentos.",
+          "overall_score": 0.3333333333333333,
+          "metrics": {
+            "overall_score": 0.3333333333333333,
+            "emergency_care": 0.3333333333333333,
+            "theme:general_veterinary": 0.3333333333333333,
+            "axis:accuracy": 0.0,
+            "theme:dairy_management": 0.0,
+            "level:example": 0.3333333333333333,
+            "axis:safety": 1.0,
+            "theme:emergency_care": 1.0,
+            "axis:completeness": 0.0,
+            "theme:prevention": 0.0
+          },
+          "rubric_items_count": 4,
+          "sources": [
+            {
+              "disease_name": "FebreAftosa",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "1",
+              "section_type": "overview",
+              "page_number": "17",
+              "relevance_score": 0.6959785223007202,
+              "content_preview": "Febre aftosa\n\u00c9 uma doen\u00e7a infecciosa aguda causada por um v\u00edrus com sete tipos diferentes, podendo se disseminar \nmuito rapidamente. Atinge animais biungulados (casco dividido), como bovinos, b\u00fafalos,..."
+            },
+            {
+              "disease_name": "TristezaParasitariaBovina",
+              "disease_type": "DoencasParasit\u00e1rias",
+              "chunk_index": "1",
+              "section_type": "overview",
+              "page_number": "[23, 24]",
+              "relevance_score": 0.6673552989959717,
+              "content_preview": "Tristeza parasit\u00e1ria bovina (TPB)\n\u00c9 um complexo de duas doen\u00e7as com caracter\u00edsticas epidemiol\u00f3gicas semelhantes, conhecidas por babe-\nsiose e anaplasmose, que s\u00e3o causadas por tr\u00eas agentes: Babesia bi..."
+            },
+            {
+              "disease_name": "DiarreiaViralBovina(BVD)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "3",
+              "section_type": "Controle_e_Profilaxia",
+              "page_number": "[16, 17]",
+              "relevance_score": 0.7048243284225464,
+              "content_preview": "Controle e profilaxia da Diarreia viral bovina (BVD)\nO controle pode ser realizado com ou sem utiliza\u00e7\u00e3o de vacinas, de acordo com o hist\u00f3rico do rebanho. \nO controle com vacina\u00e7\u00e3o \u00e9 recomendado em re..."
+            }
+          ]
+        },
+        {
+          "query": "Quais s\u00e3o os impactos econ\u00f4micos da BVD no meu rebanho?",
+          "expected_response": "A BVD pode causar perdas reprodutivas, redu\u00e7\u00e3o da produ\u00e7\u00e3o de leite, aumento dos custos veterin\u00e1rios e poss\u00edvel descarte de animais persistentemente infectados, impactando significativamente a lucratividade da fazenda.",
+          "actual_response": "Pelo material fornecido, os principais impactos econ\u00f4micos da Diarreia Viral Bovina (BVD) no rebanho s\u00e3o, em resumo:\n\nImpactos diretos sobre produtividade e reprodu\u00e7\u00e3o\n- Perdas reprodutivas: infertilidade, mortalidade embrion\u00e1ria precoce ou tardia, abortos, mumifica\u00e7\u00e3o fetal, retorno ao cio e nascimentos de bezerros fracos ou mal formados \u2014 tudo isso reduz a efici\u00eancia reprodutiva e aumenta custos com repeti\u00e7\u00f5es de servi\u00e7o e reposi\u00e7\u00e3o.  \n- Nascimento de animais persistentemente infectados (PI): os PI excretam v\u00edrus por toda a vida, podem morrer precocemente ou, se sobreviverem, reduzir o desempenho produtivo do rebanho e perpetuar a infec\u00e7\u00e3o.  \n- Redu\u00e7\u00e3o da produ\u00e7\u00e3o de leite: vacas infectadas podem apresentar baixa produ\u00e7\u00e3o e altera\u00e7\u00f5es na composi\u00e7\u00e3o do leite (menor teor de gordura e prote\u00edna).  \n- Qualidade do leite comprometida: aumento da contagem de c\u00e9lulas som\u00e1ticas (CCS) e da contagem bacteriana total (CBT), com impactos sobre pre\u00e7o recebido, descarte de leite e tratamentos mastite associados.\n\nImpactos indiretos por imunossupress\u00e3o e morbidade\n- Aumento de doen\u00e7as secund\u00e1rias: devido ao efeito imunossupressor do v\u00edrus, h\u00e1 maior ocorr\u00eancia de doen\u00e7as respirat\u00f3rias, diarreias e outras afec\u00e7\u00f5es que aumentam mortalidade, tratamentos, tempo de recupera\u00e7\u00e3o e custos com medicamentos e m\u00e3o de obra.  \n- Retardo no desenvolvimento de bezerros PI e menor desempenho geral dos animais acometidos (crescimento, convers\u00e3o alimentar), elevando custos de manuten\u00e7\u00e3o e reduzindo retorno econ\u00f4mico.\n\nCustos de controle e manejo\n- Custos com diagn\u00f3stico e vigil\u00e2ncia: testes (ELISA ant\u00edgeno, RT\u2011PCR, bi\u00f3psia de orelha, sorologia), repeti\u00e7\u00e3o de exames (ex.: reexaminar bezerras positivas ap\u00f3s 30 dias) e rastreamento de m\u00e3es.  \n- Custos de descarte/substitui\u00e7\u00e3o: elimina\u00e7\u00e3o de animais PI e reposi\u00e7\u00e3o de animais substitutos.  \n- Gastos com medidas preventivas: quarentena de novos animais, biosseguridade, utiliza\u00e7\u00e3o de s\u00eamen/embri\u00f5es livres de pat\u00f3genos, pr\u00e1ticas de manejo (lotear por idade/est\u00e1gio), esteriliza\u00e7\u00e3o de material veterin\u00e1rio.  \n- Gastos com vacina\u00e7\u00e3o: compra de vacinas e execu\u00e7\u00e3o do esquema conforme fabricante (lembrando que vacina\u00e7\u00e3o reduz transmiss\u00e3o e sinais cl\u00ednicos, mas n\u00e3o \u201ccura\u201d animais PI).\n\nConsequ\u00eancia econ\u00f4mica geral\n- A combina\u00e7\u00e3o de perdas reprodutivas, menor produ\u00e7\u00e3o e qualidade do leite, maior mortalidade e maior gasto com controle resulta em preju\u00edzos econ\u00f4micos importantes e cont\u00ednuos enquanto o agente circula no rebanho. O documento afirma que a BVD \u00e9 uma das doen\u00e7as virais bovinas com maior impacto produtivo no mundo.\n\nO que fazer para reduzir esses impactos (resumo das medidas indicadas)\n- Identificar e eliminar animais PI (objetivo prim\u00e1rio do controle).  \n- Testar animais jovens primeiro; repetir positivos ap\u00f3s \u226530 dias; testar m\u00e3es de bezerras positivas.  \n- Quarentena e testes antes da compra/introd. de animais.  \n- Usar material gen\u00e9tico (s\u00eamen/embri\u00f5es) certificado livre de BVD.  \n- Considerar vacina\u00e7\u00e3o conforme hist\u00f3rico do rebanho (rebanhos com alta rotatividade, sorologia positiva ou hist\u00f3rico cl\u00ednico/reprodutivo). Vacina n\u00e3o elimina PI, serve para reduzir transmiss\u00e3o e gravidade cl\u00ednica.  \n- Boas pr\u00e1ticas de manejo e biosseguridade (colostragem adequada, divis\u00e3o de lotes, esteriliza\u00e7\u00e3o de material, controle de hist\u00f3rico reprodutivo).\n\nObserva\u00e7\u00e3o: o material fornecido descreve os tipos de perdas e os custos de controle, mas n\u00e3o traz estimativas monet\u00e1rias/valores espec\u00edficos. Se quiser, posso ajudar a montar uma estimativa de impacto econ\u00f4mico para o seu rebanho com base em dados da sua fazenda (n\u00ba de f\u00eameas, taxa de prenhez, produ\u00e7\u00e3o de leite, preval\u00eancia suspeita de PI etc.).",
+          "overall_score": 0.0,
+          "metrics": {
+            "overall_score": 0.0,
+            "economic_impact": 0.0,
+            "theme:general_veterinary": 0.0,
+            "axis:accuracy": 0.0,
+            "theme:dairy_management": 0.0,
+            "level:example": 0.0,
+            "axis:safety": 0.0,
+            "theme:emergency_care": 0.0,
+            "axis:completeness": 0.0,
+            "theme:prevention": 0.0
+          },
+          "rubric_items_count": 4,
+          "sources": [
+            {
+              "disease_name": "DiarreiaViralBovina(BVD)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "1",
+              "section_type": "overview",
+              "page_number": "[15, 16]",
+              "relevance_score": 0.7455249428749084,
+              "content_preview": "Diarreia viral bovina (BVD)\n\u00c9 causada um v\u00edrus com alta variabilidade gen\u00e9tica e antig\u00eanica, o v\u00edrus da diarreia viral bovina (BVD), e \nacomete animais de todas as idades. \u00c9 considerada uma das princi..."
+            },
+            {
+              "disease_name": "",
+              "disease_type": "",
+              "chunk_index": "1",
+              "section_type": "",
+              "page_number": "13",
+              "relevance_score": 0.6816593408584595,
+              "content_preview": "Controle e Profilaxia Geral: A mitiga\u00e7\u00e3o de fatores de risco para todas doen\u00e7as demanda que algumas medidas de ordem geral sejam \nadotadas, tais como: testes sorol\u00f3gicos antes da compra de animais, is..."
+            },
+            {
+              "disease_name": "DiarreiaViralBovina(BVD)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "3",
+              "section_type": "Controle_e_Profilaxia",
+              "page_number": "[16, 17]",
+              "relevance_score": 0.7384130954742432,
+              "content_preview": "Controle e profilaxia da Diarreia viral bovina (BVD)\nO controle pode ser realizado com ou sem utiliza\u00e7\u00e3o de vacinas, de acordo com o hist\u00f3rico do rebanho. \nO controle com vacina\u00e7\u00e3o \u00e9 recomendado em re..."
+            }
+          ]
+        }
+      ],
+      "average_score": 0.21666666666666665,
+      "max_score": 0.75,
+      "min_score": 0.0
+    },
+    "gpt-5": {
+      "model_name": "GPT-5",
+      "model_id": "gpt-5",
+      "results": [
+        {
+          "query": "Quais s\u00e3o os primeiros sinais de mastite em vacas leiteiras?",
+          "expected_response": "Os primeiros sinais incluem mudan\u00e7as na apar\u00eancia do leite, incha\u00e7o do \u00fabere, diminui\u00e7\u00e3o da produ\u00e7\u00e3o de leite e mudan\u00e7as comportamentais como chutar durante a ordenha.",
+          "actual_response": "N\u00e3o encontrei no contexto fornecido uma lista espec\u00edfica dos \u201cprimeiros sinais\u201d de mastite. \n\nCom base no que o material traz:\n- Nas mastites cl\u00ednicas h\u00e1 \u201csintomas evidentes ao exame cl\u00ednico\u201d e ocorre altera\u00e7\u00e3o na composi\u00e7\u00e3o do leite, variando conforme o agente e a intensidade da infec\u00e7\u00e3o.\n- Nas mastites subcl\u00ednicas n\u00e3o h\u00e1 sinais ao exame cl\u00ednico; por isso, sua detec\u00e7\u00e3o depende de testes como o CMT (California Mastitis Test) ou da contagem de c\u00e9lulas som\u00e1ticas (CCS).\n- O teste da caneca de fundo escuro, realizado a cada ordenha, \u00e9 indicado para detec\u00e7\u00e3o de mastites cl\u00ednicas.",
+          "overall_score": 0.0,
+          "metrics": {
+            "overall_score": 0.0,
+            "dairy_management": 0.0,
+            "theme:general_veterinary": 0.0,
+            "axis:accuracy": 0.0,
+            "theme:dairy_management": 0.0,
+            "level:example": 0.0,
+            "axis:safety": 0.0,
+            "theme:emergency_care": 0.0,
+            "axis:completeness": 0.0,
+            "theme:prevention": 0.0
+          },
+          "rubric_items_count": 4,
+          "sources": [
+            {
+              "disease_name": "Mastite",
+              "disease_type": "DoencasBacterianas",
+              "chunk_index": "1",
+              "section_type": "overview",
+              "page_number": "[18, 19]",
+              "relevance_score": 0.7506968975067139,
+              "content_preview": "Doen\u00e7as bacterianas\nMastite\nApesar de todos avan\u00e7os tecnol\u00f3gicos, a infec\u00e7\u00e3o da gl\u00e2ndula mam\u00e1ria continua sendo a doen\u00e7a bacte-\nriana com maior impacto em rebanhos leiteiros e, portanto, avan\u00e7os cont\u00ed..."
+            },
+            {
+              "disease_name": "Mastite",
+              "disease_type": "DoencasBacterianas",
+              "chunk_index": "3",
+              "section_type": "Controle_e_Profilaxia",
+              "page_number": "19",
+              "relevance_score": 0.7465951442718506,
+              "content_preview": "Controle e profilaxia da Mastite: o controle da mastite deve levar em conta a redu\u00e7\u00e3o dos fatores que podem pre-\ndispor a sua ocorr\u00eancia nos animais, tais como: adequar as instala\u00e7\u00f5es de forma a evita..."
+            },
+            {
+              "disease_name": "Mastite",
+              "disease_type": "DoencasBacterianas",
+              "chunk_index": "2",
+              "section_type": "Diagnostico",
+              "page_number": "19",
+              "relevance_score": 0.7035926580429077,
+              "content_preview": "Diagn\u00f3stico da Mastite: em mastites subcl\u00ednicas, \u00e9 realizado pelo CMT (California Mastites Test), ou pela contagem \nde c\u00e9lulas som\u00e1ticas (CCS) em laborat\u00f3rios da Rede Brasileira de Laborat\u00f3rios de Qua..."
+            }
+          ]
+        },
+        {
+          "query": "Como devo lidar com uma vaca com suspeita de IBR?",
+          "expected_response": "Isole o animal imediatamente, entre em contato com seu veterin\u00e1rio, implemente medidas de biosseguran\u00e7a e monitore outros animais para sintomas.",
+          "actual_response": "Eis um roteiro pr\u00e1tico, com base no material fornecido, para manejar uma vaca com suspeita de IBR (infec\u00e7\u00e3o por BoHV\u20111):\n\n1) Isolamento e manejo imediato\n- Separe o animal suspeito para reduzir a dissemina\u00e7\u00e3o do v\u00edrus dentro do lote.\n- Minimize fatores de estresse (a reativa\u00e7\u00e3o do herpesv\u00edrus \u00e9 favorecida por estresse e imunossupress\u00e3o).\n- Reforce biosseguridade no curral/equipe e evite movimenta\u00e7\u00f5es desnecess\u00e1rias do animal.\n\n2) Confirma\u00e7\u00e3o diagn\u00f3stica (coleta e envio de amostras)\n- Para PCR/isolamento viral: colha suabe nasal; se houver sinais genitais, suabe/raspado vaginal. Em caso de aborto, colha fragmentos de tecidos fetais. (Em machos, s\u00eamen fresco/congelado \u00e9 amostra \u00fatil; em necropsias, g\u00e2nglios trig\u00eameo/sacral.)\n- Para sorologia: colha soro sangu\u00edneo de forma ass\u00e9ptica. Considere amostras pareadas (in\u00edcio e 2\u20134 semanas depois) para evidenciar soroconvers\u00e3o.\n- Testes: soroneutraliza\u00e7\u00e3o \u00e9 o padr\u00e3o; ELISA \u00e9 sens\u00edvel e r\u00e1pido. Observa\u00e7\u00e3o: a sorologia n\u00e3o diferencia anticorpos de vacina vs. infec\u00e7\u00e3o natural.\n- Envio: mantenha as amostras refrigeradas, devidamente identificadas e acompanhadas de hist\u00f3rico cl\u00ednico e achados.\n\n3) Medidas no rebanho enquanto aguarda resultados\n- Monitore clinicamente o lote (respirat\u00f3rio e reprodutivo) e avalie o status sorol\u00f3gico por categorias (novilhas, vacas, touros) para embasar decis\u00f5es.\n- Adote desinfec\u00e7\u00e3o nas instala\u00e7\u00f5es/equipamentos: BoHV\u20111 \u00e9 inativado por derivados fen\u00f3licos 1%, hipoclorito de s\u00f3dio 2%, hidr\u00f3xido de s\u00f3dio 0,5%, am\u00f4nia quatern\u00e1ria 1%, compostos iodados 10% e formalina 5%. \u00c9 inst\u00e1vel no ambiente (at\u00e9 10 dias a 37 \u00b0C), inst\u00e1vel em pH \u00e1cido e est\u00e1vel a 4 \u00b0C por meses.\n- Use s\u00eamen e embri\u00f5es livres de BoHV\u20111.\n\n4) Vacina\u00e7\u00e3o e controle\n- A vacina\u00e7\u00e3o n\u00e3o impede a infec\u00e7\u00e3o, mas reduz a sintomatologia cl\u00ednica e as perdas econ\u00f4micas.\n- Indicar vacina\u00e7\u00e3o cont\u00ednua e regular em rebanhos com hist\u00f3rico comprovado de IBR, confinamentos ou sistemas com alta rotatividade de animais. Usualmente requer revacina\u00e7\u00e3o a cada 6 meses; siga o fabricante e ajuste com base em sorologias peri\u00f3dicas.\n- Em f\u00eameas prenhes, prefira vacinas inativadas (as atenuadas podem reverter \u00e0 virul\u00eancia e representar risco ao feto).\n- Em rebanhos com alta soropreval\u00eancia, por\u00e9m sem hist\u00f3rico cl\u00ednico/reprodutivo, pode-se optar por n\u00e3o vacinar, mantendo monitoramento produtivo e cl\u00ednico.\n- Em rebanhos sem hist\u00f3rico, foque em biosseguridade e teste de ingresso de animais; descarte todos os positivos antes de entrar no rebanho.\n\n5) Decis\u00e3o sobre descarte\n- Animais n\u00e3o vacinados e soropositivos podem ser descartados em rebanhos de baixa preval\u00eancia, pois tornam-se portadores por toda a vida e potenciais disseminadores. Em rebanhos com alta preval\u00eancia, priorize controle e vacina\u00e7\u00e3o conforme indicado acima.\n\nObserva\u00e7\u00f5es adicionais\n- Em casos com sinais reprodutivos (retorno ao cio, infertilidade, vulvovaginite, aborto), priorize a coleta adequada (incluindo tecidos fetais) para confirmar BoHV\u20111.\n- Planeje revacina\u00e7\u00f5es com base em avalia\u00e7\u00f5es sorol\u00f3gicas peri\u00f3dicas do rebanho.\n\nSe precisar, posso ajudar a montar um plano de amostragem (quantos animais por categoria e quando coletar) e um cronograma de vacina\u00e7\u00e3o adaptado ao seu sistema.",
+          "overall_score": 0.0,
+          "metrics": {
+            "overall_score": 0.0,
+            "disease_outbreak": 0.0,
+            "theme:general_veterinary": 0.0,
+            "axis:accuracy": 0.0,
+            "theme:dairy_management": 0.0,
+            "level:example": 0.0,
+            "axis:safety": 0.0,
+            "theme:emergency_care": 0.0,
+            "axis:completeness": 0.0,
+            "theme:prevention": 0.0
+          },
+          "rubric_items_count": 4,
+          "sources": [
+            {
+              "disease_name": "Rinotraque\u00edteInfecciosaBovina(IBR)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "2",
+              "section_type": "Diagnostico",
+              "page_number": "14",
+              "relevance_score": 0.7263861298561096,
+              "content_preview": "Diagn\u00f3stico da Rinotraque\u00edte infecciosa bovina (IBR): o envio adequado de material ao laborat\u00f3rio \u00e9 uma etapa fundamental para o correto diag-\nn\u00f3stico. Para o isolamento viral e rea\u00e7\u00e3o da polimerase e..."
+            },
+            {
+              "disease_name": "Rinotraque\u00edteInfecciosaBovina(IBR)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "3",
+              "section_type": "Controle_e_Profilaxia",
+              "page_number": "[14, 15]",
+              "relevance_score": 0.7450342178344727,
+              "content_preview": "Controle e profilaxia da IBR\n A estrat\u00e9gia de controle deve ser definida com base na situa\u00e7\u00e3o epidemiol\u00f3gica do rebanho. Programas \nde combate ao BoHV-1 requerem uma an\u00e1lise de custo-benef\u00edcio que dev..."
+            },
+            {
+              "disease_name": "Rinotraque\u00edteInfecciosaBovina(IBR)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "1",
+              "section_type": "overview",
+              "page_number": "[13, 14]",
+              "relevance_score": 0.7372221946716309,
+              "content_preview": "Rinotraque\u00edte infecciosa bovina (IBR)\nOs herpesv\u00edrus bovinos est\u00e3o amplamente disseminados nos rebanhos em que a bovinocultura \u00e9 explora-\nda intensivamente. Esses v\u00edrus provocam infec\u00e7\u00f5es respirat\u00f3ria..."
+            }
+          ]
+        },
+        {
+          "query": "Qual cronograma de vacina\u00e7\u00e3o devo seguir para bezerros?",
+          "expected_response": "Bezerros devem ser vacinados aos 2-3 meses para IBR/BVD, 4-6 meses para doen\u00e7as clostridiais e anualmente para doen\u00e7as respirat\u00f3rias, seguindo orienta\u00e7\u00e3o veterin\u00e1ria.",
+          "actual_response": "Com base no material fornecido, o calend\u00e1rio para bezerros inclui:\n\n- Brucelose bovina\n  - F\u00eameas (bezeras): vacinar com B19 entre 3 e 8 meses de idade (dose \u00fanica).\n  - Observa\u00e7\u00f5es: a B19 pode interferir no diagn\u00f3stico sorol\u00f3gico; n\u00e3o vacinar f\u00eameas no final da gesta\u00e7\u00e3o; em machos pode causar orquite/epididimite, por isso a recomenda\u00e7\u00e3o \u00e9 vacinar apenas f\u00eameas jovens. Em f\u00eameas adultas com status vacinal desconhecido usa-se RB51 (n\u00e3o se aplica a bezerros).\n\n- Febre aftosa\n  - Quando a vacina\u00e7\u00e3o \u00e9 exigida: todos os bovinos/bubalinos com at\u00e9 24 meses recebem duas vacina\u00e7\u00f5es anuais (maio e novembro); acima de 24 meses, uma vacina\u00e7\u00e3o anual (maio).\n  - Importante: conforme o Plano Estrat\u00e9gico 2017\u20132026 do PNEFA, a vacina\u00e7\u00e3o deixaria de ser realizada em todo o pa\u00eds at\u00e9 2021; no Rio Grande do Sul, a vacina\u00e7\u00e3o deixou de ser realizada em maio de 2021. Siga as orienta\u00e7\u00f5es vigentes do Servi\u00e7o Veterin\u00e1rio Oficial do seu estado.\n\n- Raiva dos herb\u00edvoros\n  - 3 meses de idade: primeira dose.\n  - 30 dias ap\u00f3s: segunda dose (refor\u00e7o).\n  - Refor\u00e7o anual em \u00e1reas end\u00eamicas.\n\nSugest\u00e3o pr\u00e1tica por idade:\n- 3 meses: Raiva (1\u00aa dose) e, para bezeras, pode-se iniciar a Brucelose (B19).\n- 4 meses: Raiva (2\u00aa dose).\n- At\u00e9 8 meses: garantir que a bezerra recebeu a B19.\n- At\u00e9 24 meses: participar das campanhas de Aftosa (maio/novembro) se ainda vigentes na sua regi\u00e3o.\n\nSe precisar de orienta\u00e7\u00f5es sobre outras vacinas para bezerros, estas n\u00e3o constam no material fornecido.",
+          "overall_score": 0.0,
+          "metrics": {
+            "overall_score": 0.0,
+            "vaccination_schedule": 0.0,
+            "theme:general_veterinary": 0.0,
+            "axis:accuracy": 0.0,
+            "theme:dairy_management": 0.0,
+            "level:example": 0.0,
+            "axis:safety": 0.0,
+            "theme:emergency_care": 0.0,
+            "axis:completeness": 0.0,
+            "theme:prevention": 0.0
+          },
+          "rubric_items_count": 4,
+          "sources": [
+            {
+              "disease_name": "BruceloseBovina",
+              "disease_type": "DoencasBacterianas",
+              "chunk_index": "3",
+              "section_type": "Controle_e_Profilaxia",
+              "page_number": "[21, 22]",
+              "relevance_score": 0.690862238407135,
+              "content_preview": "Controle e profilaxia da Brucelose Bovina: a vacina\u00e7\u00e3o do gado \u00e9 uma das medidas mais eficazes para reduzir a preval\u00eancia \nda brucelose, sendo utilizada com sucesso em muitos programas de controle e e..."
+            },
+            {
+              "disease_name": "FebreAftosa",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "3",
+              "section_type": "Controle",
+              "page_number": "[17, 18]",
+              "relevance_score": 0.6800044178962708,
+              "content_preview": "Controle da Febre Aftosa: a vacina no Brasil \u00e9 composta pelos sorotipos A24 Cruzeiro, O1 Campos e C3 Indaial, que \ns\u00e3o cepas representativas dos v\u00edrus que circularam no Pa\u00eds. No Rio Grande do Sul, o P..."
+            },
+            {
+              "disease_name": "RaivaDosHerb\u00edvoros",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "3",
+              "section_type": "Controle",
+              "page_number": "18",
+              "relevance_score": 0.6697667837142944,
+              "content_preview": "Controle da Raiva dos herb\u00edvoros: \u00e9 realizado pela vacina\u00e7\u00e3o do rebanho conforme as recomenda\u00e7\u00f5es do fabricante. A primeira \nimuniza\u00e7\u00e3o pode ocorrer a partir de 3 meses de idade e deve ser seguida de ..."
+            }
+          ]
+        },
+        {
+          "query": "Minha vaca est\u00e1 sem comer h\u00e1 2 dias, o que devo fazer?",
+          "expected_response": "Esta \u00e9 uma emerg\u00eancia m\u00e9dica. Verifique os sinais vitais, examine para sinais de doen\u00e7a, entre em contato com seu veterin\u00e1rio imediatamente e considere isolamento se doen\u00e7a infecciosa for suspeita.",
+          "actual_response": "Dois dias sem comer \u00e9 sinal de alerta e pode indicar doen\u00e7as importantes citadas no material. As principais suspeitas, pelos sinais descritos, s\u00e3o:\n\n- Tristeza parasit\u00e1ria bovina (babesiose/anaplasmose): transmitida por carrapatos. Cursa com febre, apatia, anorexia e suspens\u00e3o s\u00fabita da lacta\u00e7\u00e3o. Sinais espec\u00edficos que podem ajudar: mucosas p\u00e1lidas e urina avermelhada/escura (hemoglobin\u00faria) em B. bigemina; agressividade e sinais nervosos em B. bovis; icter\u00edcia (amarel\u00e3o) na anaplasmose. Pode evoluir para aborto, reten\u00e7\u00e3o de placenta ou morte.\n- Febre aftosa: altamente contagiosa. Provoca febre por 2\u20133 dias e ves\u00edculas (bolhas) na boca e nos cascos, que doem e dificultam a alimenta\u00e7\u00e3o, levando \u00e0 queda de produ\u00e7\u00e3o e emagrecimento; tamb\u00e9m causa apatia e dificuldade de locomo\u00e7\u00e3o. O v\u00edrus est\u00e1 em saliva, leite, fezes, s\u00eamen e urina, podendo ser eliminado antes mesmo dos sintomas. Pode ser confundida com estomatite vesicular, l\u00edngua azul, podrid\u00e3o dos cascos e BVD.\n\nO que fazer agora\n- Chame um m\u00e9dico-veterin\u00e1rio imediatamente para exame, diagn\u00f3stico diferencial e in\u00edcio do tratamento adequado.\n- Isole a vaca do restante do rebanho e restrinja movimenta\u00e7\u00e3o de pessoas, ve\u00edculos e equipamentos, principalmente se observar ves\u00edculas na boca/cascos ou dificuldade de andar.\n- Verifique e anote outros sinais para relatar ao veterin\u00e1rio: temperatura retal (febre), presen\u00e7a de carrapatos, feridas/bolhas na boca, claudica\u00e7\u00e3o, colora\u00e7\u00e3o das mucosas (p\u00e1lidas ou amareladas), cor da urina, mudan\u00e7as de comportamento (agressividade), queda s\u00fabita do leite, aborto.\n- N\u00e3o reutilize agulhas/seringas entre animais (anaplasmose pode ser transmitida por utens\u00edlios) e intensifique o controle de carrapatos na propriedade (h\u00e1 resist\u00eancia a carrapaticidas; o veterin\u00e1rio indicar\u00e1 a melhor estrat\u00e9gia).\n- Se a vaca estiver em lacta\u00e7\u00e3o, informe isso ao veterin\u00e1rio, pois alguns tratamentos t\u00eam per\u00edodo de car\u00eancia no leite.\n\nEstas a\u00e7\u00f5es ajudam a proteger a vaca e a evitar a dissemina\u00e7\u00e3o no rebanho enquanto o diagn\u00f3stico \u00e9 confirmado.",
+          "overall_score": 0.3333333333333333,
+          "metrics": {
+            "overall_score": 0.3333333333333333,
+            "emergency_care": 0.3333333333333333,
+            "theme:general_veterinary": 0.3333333333333333,
+            "axis:accuracy": 0.0,
+            "theme:dairy_management": 0.0,
+            "level:example": 0.3333333333333333,
+            "axis:safety": 1.0,
+            "theme:emergency_care": 1.0,
+            "axis:completeness": 0.0,
+            "theme:prevention": 0.0
+          },
+          "rubric_items_count": 4,
+          "sources": [
+            {
+              "disease_name": "FebreAftosa",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "1",
+              "section_type": "overview",
+              "page_number": "17",
+              "relevance_score": 0.6959785223007202,
+              "content_preview": "Febre aftosa\n\u00c9 uma doen\u00e7a infecciosa aguda causada por um v\u00edrus com sete tipos diferentes, podendo se disseminar \nmuito rapidamente. Atinge animais biungulados (casco dividido), como bovinos, b\u00fafalos,..."
+            },
+            {
+              "disease_name": "TristezaParasitariaBovina",
+              "disease_type": "DoencasParasit\u00e1rias",
+              "chunk_index": "1",
+              "section_type": "overview",
+              "page_number": "[23, 24]",
+              "relevance_score": 0.6673552989959717,
+              "content_preview": "Tristeza parasit\u00e1ria bovina (TPB)\n\u00c9 um complexo de duas doen\u00e7as com caracter\u00edsticas epidemiol\u00f3gicas semelhantes, conhecidas por babe-\nsiose e anaplasmose, que s\u00e3o causadas por tr\u00eas agentes: Babesia bi..."
+            },
+            {
+              "disease_name": "DiarreiaViralBovina(BVD)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "1",
+              "section_type": "overview",
+              "page_number": "[15, 16]",
+              "relevance_score": 0.698272168636322,
+              "content_preview": "Diarreia viral bovina (BVD)\n\u00c9 causada um v\u00edrus com alta variabilidade gen\u00e9tica e antig\u00eanica, o v\u00edrus da diarreia viral bovina (BVD), e \nacomete animais de todas as idades. \u00c9 considerada uma das princi..."
+            }
+          ]
+        },
+        {
+          "query": "Quais s\u00e3o os impactos econ\u00f4micos da BVD no meu rebanho?",
+          "expected_response": "A BVD pode causar perdas reprodutivas, redu\u00e7\u00e3o da produ\u00e7\u00e3o de leite, aumento dos custos veterin\u00e1rios e poss\u00edvel descarte de animais persistentemente infectados, impactando significativamente a lucratividade da fazenda.",
+          "actual_response": "A BVD est\u00e1 entre as doen\u00e7as de maior impacto produtivo em bovinos (OIE) e tem alta ocorr\u00eancia no Brasil. No rebanho, os principais impactos econ\u00f4micos decorrem de:\n\n- Perdas reprodutivas: interfer\u00eancia na fecunda\u00e7\u00e3o/implanta\u00e7\u00e3o, mortalidade embrion\u00e1ria precoce ou tardia, mumifica\u00e7\u00e3o fetal, abortos e retorno ao cio, al\u00e9m do nascimento de bezerros fracos ou malformados.\n- Nascimento e manuten\u00e7\u00e3o de animais PI (persistentemente infectados): cerca de 0,5%\u20132% dos nascidos em rebanhos com infec\u00e7\u00e3o podem ser PI. Esses animais excretam v\u00edrus por toda a vida, mant\u00eam a infec\u00e7\u00e3o no rebanho, frequentemente apresentam retardo no desenvolvimento, imunossupress\u00e3o e morte precoce, e acabam sendo descartados.\n- Queda de produtividade e qualidade do leite: vacas infectadas podem parecer normais, por\u00e9m produzem menos, com aumento da CCS e da CBT e menor teor de gordura e prote\u00edna no leite.\n- Mais doen\u00e7as secund\u00e1rias e perdas associadas: devido ao efeito imunossupressor do v\u00edrus, s\u00e3o comuns casos recorrentes de problemas respirat\u00f3rios, tristeza parasit\u00e1ria e diarreias em rebanhos portadores, aumentando morbidade e mortalidade.\n\nEm conjunto, esses efeitos resultam em redu\u00e7\u00e3o de produ\u00e7\u00e3o (carne e leite), perdas reprodutivas significativas e maior rotatividade/descartes, caracterizando importantes perdas econ\u00f4micas em rebanhos de corte e leite.",
+          "overall_score": 0.0,
+          "metrics": {
+            "overall_score": 0.0,
+            "economic_impact": 0.0,
+            "theme:general_veterinary": 0.0,
+            "axis:accuracy": 0.0,
+            "theme:dairy_management": 0.0,
+            "level:example": 0.0,
+            "axis:safety": 0.0,
+            "theme:emergency_care": 0.0,
+            "axis:completeness": 0.0,
+            "theme:prevention": 0.0
+          },
+          "rubric_items_count": 4,
+          "sources": [
+            {
+              "disease_name": "DiarreiaViralBovina(BVD)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "1",
+              "section_type": "overview",
+              "page_number": "[15, 16]",
+              "relevance_score": 0.7454405426979065,
+              "content_preview": "Diarreia viral bovina (BVD)\n\u00c9 causada um v\u00edrus com alta variabilidade gen\u00e9tica e antig\u00eanica, o v\u00edrus da diarreia viral bovina (BVD), e \nacomete animais de todas as idades. \u00c9 considerada uma das princi..."
+            },
+            {
+              "disease_name": "DiarreiaViralBovina(BVD)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "3",
+              "section_type": "Controle_e_Profilaxia",
+              "page_number": "[16, 17]",
+              "relevance_score": 0.7383757829666138,
+              "content_preview": "Controle e profilaxia da Diarreia viral bovina (BVD)\nO controle pode ser realizado com ou sem utiliza\u00e7\u00e3o de vacinas, de acordo com o hist\u00f3rico do rebanho. \nO controle com vacina\u00e7\u00e3o \u00e9 recomendado em re..."
+            },
+            {
+              "disease_name": "DiarreiaViralBovina(BVD)",
+              "disease_type": "DoencasViricas",
+              "chunk_index": "2",
+              "section_type": "Diagnostico",
+              "page_number": "16",
+              "relevance_score": 0.7156685590744019,
+              "content_preview": "Diagn\u00f3stico da Diarreia viral bovina (BVD): o isolamento viral no laborat\u00f3rio pode ser realizado a partir de amostras de sangue total, \nsoro, secre\u00e7\u00f5es e tecidos (ba\u00e7o, timo, linfonodos e pulm\u00e3o) cole..."
+            }
+          ]
+        }
+      ],
+      "average_score": 0.06666666666666667,
+      "max_score": 0.3333333333333333,
+      "min_score": 0.0
+    }
+  },
+  "summary_metrics": {
+    "best_model": "gpt-5-mini",
+    "worst_model": "gpt-5-nano",
+    "score_range": {
+      "highest": 0.75,
+      "lowest": 0.0
+    }
+  }
+}

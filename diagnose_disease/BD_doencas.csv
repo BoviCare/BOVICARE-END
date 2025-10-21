@@ -1,0 +1,13 @@
+Doença,Microorganismos,Transmissão (via),Sinais clínicos,Vacina,Tratamento,Erradicação
+Brucelose bovina,Bactéria,Oral; reprodução,Aborto; natimortos; terneiros fracos,Sim,Não,Sim
+Mastite, Infecciosa ou não, NDA, NDA, NDA, Sim, Não
+Tuberculose,Bactéria,Inalação; oral,Perda de peso; lesões em órgãos da cavidade abdominal,Não,Não,Não
+Diarréia viral bovina (BVD),Vírus,Oral; reprodução,Diarréia severa; febre; abortos; retornos ao cio; nascimento de terneiros fracos,Sim,Não,Sim
+Rinotraqueíte infecciosa bovina (IBR),Vírus,Inalação; reprodução,Aborto; tosse; infecção ocular; infecção genital,Sim,Não,Sim
+Leptospirose.,Bactéria,Pele; oral; inalação; reprodução,Aborto; natimortos; terneiros fracos; febre; queda na produção,Sim,Sim,Não
+Neosporose.,Protozoário,Oral; reprodução,Aborto; nascimento de terneiros fracos,Não,Não,Não
+Salmonelose,Bactéria,Oral,Diarréia,Sim,Sim,Não
+Leucose,Vírus,Sangue; reprodução,Aumento de linfonodos,Não,Não,Não
+Raiva,Vírus,Mordedura de morcegos hematófagos,Anorexia; hiperexcitabilidade; ataxia; morte,Sim,Não,Sim
+Febre aftosa,Vírus,Oral (saliva); leite; fômites; reprodução,Vesículas (boca; língua; patas); anorexia; dificuldade de movimentação; hipersalivação,Sim,Não,Sim
+Tristeza parasitária,Protozoários ou rickettsia,Carrapato ou insetos hematófagos e fômites,Febre; anorexia; palidez de mucosas (ou icterícia); hemoglobinúria; redução da lactação; aborto; morte,Sim,Sim,Não
