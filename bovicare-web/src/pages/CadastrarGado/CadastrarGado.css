@@ -1,0 +1,857 @@
+/* CadastrarGado.css */
+
+.cadastrar-gado-container {
+  display: flex;
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+/* Seção da lista de gados */
+.cattle-list-section {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+}
+
+.cattle-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #f3f4f6;
+  gap: 16px;
+}
+
+.cattle-list-header h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.add-cattle-btn {
+  background: #15AABF;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: auto;
+  min-width: 140px;
+  max-width: 180px;
+}
+
+.add-cattle-btn:hover {
+  background: #1296a7;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(21, 170, 191, 0.3);
+}
+
+.add-cattle-btn.primary {
+  background: linear-gradient(135deg, #15AABF 0%, #1296a7 100%);
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/* Estado vazio */
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f9fafb;
+  border-radius: 12px;
+  border: 2px dashed #d1d5db;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  max-width: 420px;
+  margin: 60px auto;
+}
+
+.empty-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 16px auto;
+}
+
+.empty-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.empty-state h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #374151;
+  margin: 0 0 8px 0;
+}
+
+.empty-state p {
+  color: #6b7280;
+  margin: 0 0 24px 0;
+}
+
+/* Loading */
+.loading-message {
+  text-align: center;
+  padding: 40px;
+  color: #6b7280;
+}
+
+.loading-spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid #f3f4f6;
+  border-top: 3px solid #15AABF;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 16px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Grid de gados */
+.cattle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 24px;
+}
+
+.cattle-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.cattle-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-color: #15AABF;
+}
+
+.cattle-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.cattle-card-header h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-badge.ativo {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.status-badge.vendido {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status-badge.morto {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.cattle-card-body {
+  margin-top: 16px;
+}
+
+.cattle-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+}
+
+.info-item .label {
+  font-weight: 600;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.info-item .value {
+  color: #1a1a1a;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: right;
+}
+
+.cadastrar-gado-content {
+  flex: 1;
+  padding: 40px;
+  margin-left: 250px; /* Espaço para a sidebar */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 290px; /* Ajuste para sidebar */
+}
+
+.cadastrar-gado-header {
+  margin-bottom: 40px;
+}
+
+.cadastrar-gado-header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 8px 0;
+}
+
+.cadastrar-gado-header p {
+  font-size: 16px;
+  color: #666666;
+  margin: 0;
+}
+
+.cadastrar-gado-form {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+}
+
+/* Grid layout para os campos */
+.cadastrar-gado-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+/* Campos que ocupam a largura total */
+.form-group:has(input[name="name"]),
+.form-group:has(input[name="origin"]),
+.form-group:has(input[name="breed"]),
+.form-group:has(input[name="customCategory"]) {
+  grid-column: 1 / -1;
+}
+
+/* Campos de data lado a lado */
+.form-group:has(input[name="entryDate"]),
+.form-group:has(input[name="birthDate"]),
+.form-group:has(input[name="estimatedSlaughter"]) {
+  grid-column: 1;
+}
+
+/* Campos de peso lado a lado */
+.form-group:has(input[name="entryWeight"]),
+.form-group:has(input[name="targetWeight"]) {
+  grid-column: 2;
+}
+
+/* Botões de ação */
+.form-actions {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* Estilos dos campos */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-weight: 600;
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 4px;
+}
+
+.form-group input,
+.form-group select {
+  padding: 12px 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.2s ease;
+  background: #ffffff;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #15AABF;
+  box-shadow: 0 0 0 3px rgba(21, 170, 191, 0.1);
+}
+
+.form-group input::placeholder {
+  color: #9ca3af;
+  font-style: italic;
+}
+
+.form-group select {
+  cursor: pointer;
+}
+
+.form-group select option {
+  padding: 8px;
+}
+
+/* Exibição da idade calculada */
+.age-display {
+  margin-top: 4px;
+}
+
+.age-display small {
+  color: #15AABF;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+/* Mensagens de sucesso e erro */
+.success-message {
+  grid-column: 1 / -1;
+  background: #d1fae5;
+  color: #065f46;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #a7f3d0;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.error-message {
+  grid-column: 1 / -1;
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #fca5a5;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+/* Botões */
+.cancel-btn {
+  padding: 12px 24px;
+  background: #ffffff;
+  color: #6b7280;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cancel-btn:hover {
+  background: #f9fafb;
+  border-color: #d1d5db;
+}
+
+.submit-btn {
+  padding: 12px 24px;
+  background: #15AABF;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 120px;
+}
+
+.submit-btn:hover:not(:disabled) {
+  background: #1296a7;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(21, 170, 191, 0.3);
+}
+
+.submit-btn:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+  .cadastrar-gado-content {
+    padding-left: 20px;
+    margin-left: 0;
+  }
+  
+  .cadastrar-gado-form {
+    grid-template-columns: 1fr;
+  }
+  
+  .form-group:has(input[name="entryDate"]),
+  .form-group:has(input[name="birthDate"]),
+  .form-group:has(input[name="estimatedSlaughter"]),
+  .form-group:has(input[name="entryWeight"]),
+  .form-group:has(input[name="targetWeight"]) {
+    grid-column: 1;
+  }
+  
+  .cattle-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  
+  .cattle-list-header {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .cattle-list-header h2 {
+    text-align: center;
+  }
+  
+  .add-cattle-btn {
+    width: 100%;
+    max-width: 200px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .cadastrar-gado-content {
+    padding: 20px;
+  }
+  
+  .cadastrar-gado-form {
+    padding: 24px;
+  }
+  
+  .cadastrar-gado-header h1 {
+    font-size: 28px;
+  }
+  
+  .form-actions {
+    flex-direction: column;
+  }
+  
+  .cancel-btn,
+  .submit-btn {
+    width: 100%;
+  }
+  
+  .cattle-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .cattle-card {
+    padding: 16px;
+  }
+  
+  .cattle-list-section {
+    padding: 24px;
+  }
+  
+  .empty-state {
+    padding: 40px 16px;
+  }
+  
+  .empty-icon {
+    font-size: 48px;
+  }
+}
+
+/* Estilo para campos obrigatórios */
+.form-group label::after {
+  content: ' *';
+  color: #ef4444;
+  font-weight: 700;
+}
+
+/* Melhorias visuais */
+.form-group input:invalid {
+  border-color: #fca5a5;
+}
+
+.form-group input:valid {
+  border-color: #a7f3d0;
+}
+
+/* Animações */
+.form-group {
+  animation: fadeInUp 0.3s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Estilo para o campo de categoria customizada */
+.form-group:has(input[name="customCategory"]) {
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 100px;
+  }
+}
+
+/* Estilos para botões de ação nos cards */
+.cattle-card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #f3f4f6;
+}
+
+.edit-cattle-btn {
+  padding: 10px 16px;
+  background: #ecfdf5;
+  color: #047857;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.edit-cattle-btn:hover {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.delete-cattle-btn {
+  padding: 10px 16px;
+  background: #fee2e2;
+  color: #b91c1c;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.delete-cattle-btn:hover {
+  background: #fca5a5;
+  color: #7f1d1d;
+}
+
+/* Estilos para modal de edição */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 12px;
+  padding: 0;
+  max-width: 500px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.modal-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #6b7280;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.close-btn:hover {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+.edit-form {
+  padding: 24px;
+}
+
+.edit-form .form-group {
+  margin-bottom: 20px;
+}
+
+.edit-form .form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #374151;
+  font-size: 14px;
+}
+
+.edit-form .form-group input,
+.edit-form .form-group select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.2s ease;
+  box-sizing: border-box;
+}
+
+.edit-form .form-group input:focus,
+.edit-form .form-group select:focus {
+  outline: none;
+  border-color: #15AABF;
+  box-shadow: 0 0 0 3px rgba(21, 170, 191, 0.1);
+}
+
+.edit-form .form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.edit-form .cancel-btn {
+  flex: 1;
+  background: #6b7280;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.edit-form .cancel-btn:hover {
+  background: #4b5563;
+}
+
+.edit-form .save-btn {
+  flex: 1;
+  background: #15AABF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.edit-form .save-btn:hover {
+  background: #0d8a9e;
+}
+
+/* Estilos para modal de confirmação de exclusão */
+.delete-confirmation-modal {
+  max-width: 480px;
+  text-align: center;
+}
+
+.delete-confirmation-modal .modal-header {
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 24px 16px 24px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.delete-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.delete-confirmation-modal .modal-header h3 {
+  color: #dc2626;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.delete-message {
+  padding: 24px;
+  background: #fef2f2;
+  border-radius: 8px;
+  margin: 16px 24px;
+}
+
+.delete-message p {
+  margin: 0 0 12px 0;
+  color: #374151;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.delete-message p:last-child {
+  margin-bottom: 0;
+}
+
+.warning-text {
+  color: #dc2626 !important;
+  font-size: 14px !important;
+  font-weight: 600;
+  background: #fee2e2;
+  padding: 12px;
+  border-radius: 6px;
+  border-left: 4px solid #dc2626;
+}
+
+.delete-confirm-btn {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 140px;
+  margin-left: 8px;
+}
+
+.delete-confirm-btn:hover {
+  background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+}
+
+.delete-confirmation-modal .cancel-btn {
+  background: #6b7280;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 120px;
+}
+
+.delete-confirmation-modal .cancel-btn:hover {
+  background: #4b5563;
+  transform: translateY(-1px);
+}
+
+/* Ajustes específicos para o wrapper de botões da modal de confirmação */
+.delete-confirmation-modal .form-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 24px 24px;
+  margin: 0 0 8px 0;
+  border-top: 1px solid #e5e7eb;
+}
+
+.delete-confirmation-modal .delete-confirm-btn,
+.delete-confirmation-modal .cancel-btn {
+  flex: 0 0 auto; /* não expandir */
+  width: auto;
+  min-width: 140px;
+}
+
+/* Remover margens específicas aplicadas globalmente para evitar stretch */
+.delete-confirmation-modal .delete-confirm-btn { margin-left: 0; }
+.delete-confirmation-modal .cancel-btn { margin-right: 0; }
+
+/* Em telas pequenas empilhar os botões */
+@media (max-width: 480px) {
+  .delete-confirmation-modal .form-actions {
+    flex-direction: column-reverse; /* confirmar em cima, cancelar embaixo */
+    gap: 12px;
+  }
+
+  .delete-confirmation-modal .delete-confirm-btn,
+  .delete-confirmation-modal .cancel-btn {
+    width: 100%;
+    min-width: 0;
+  }
+}

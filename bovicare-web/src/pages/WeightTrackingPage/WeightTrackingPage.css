@@ -1,0 +1,14 @@
+/* Weight Tracking Page Styles - Seguindo o padrão da Home */
+.weight-tracking-page-container {
+  min-height: 100vh;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .weight-tracking-page-container {
+    flex-direction: column;
+  }
+}

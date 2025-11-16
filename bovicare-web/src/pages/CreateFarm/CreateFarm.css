@@ -1,0 +1,407 @@
+/* CreateFarm.css */
+.create-farm-container {
+  display: flex;
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.create-farm-content {
+  flex: 1;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 290px; /* Ajuste para sidebar fixa */
+}
+
+.create-farm-header {
+  margin-bottom: 32px;
+}
+
+.create-farm-header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 8px 0;
+}
+
+.create-farm-header p {
+  font-size: 16px;
+  color: #666666;
+  margin: 0;
+}
+
+.add-farm-btn {
+  background: #15AABF;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 140px;
+  max-width: 200px;
+}
+
+.add-farm-btn:hover {
+  background: #1296a7;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(21, 170, 191, 0.3);
+}
+
+.farm-list-section {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+}
+
+.farm-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #f3f4f6;
+  gap: 16px;
+}
+
+.farm-list-header h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.farm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.farm-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 24px;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.farm-card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.farm-card-header h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.farm-card-header span {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.farm-card-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.farm-card-body .info-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.farm-card-body .info-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.farm-card-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: auto;
+}
+
+.edit-farm-btn {
+  background: #ecfdf5;
+  color: #047857;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.edit-farm-btn:hover {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.delete-farm-btn {
+  background: #fee2e2;
+  color: #b91c1c;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.delete-farm-btn:hover {
+  background: #fca5a5;
+  color: #7f1d1d;
+}
+
+.delete-confirmation-modal {
+  max-width: 420px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 24px 48px rgba(15, 23, 42, 0.18);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.delete-confirmation-modal .modal-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.delete-confirmation-modal .delete-icon {
+  font-size: 32px;
+}
+.delete-confirmation-modal .delete-message {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #475569;
+  text-align: left;
+}
+.delete-confirmation-modal .warning-text {
+  font-size: 0.9rem;
+  color: #b91c1c;
+}
+.delete-confirmation-modal .form-actions {
+  display: flex;
+  justify-content: space-between;
+}
+.delete-confirm-btn {
+  background: linear-gradient(135deg, #ef4444 0%, #b91c1c 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.delete-confirm-btn:hover {
+  filter: brightness(0.95);
+}
+
+.create-farm-form {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.form-fields-grid {
+  display: contents;
+}
+
+.form-group,
+.form-group-full {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group-full,
+.form-group:nth-child(3),
+.form-group:nth-child(8),
+.form-group:nth-child(9) {
+  grid-column: 1 / -1;
+}
+
+.form-group label,
+.form-group-full label {
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select,
+.form-group-full input,
+.form-group-full textarea {
+  width: 100%;
+  padding: 16px 20px;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  background: #ffffff;
+  color: #374151;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus,
+.form-group-full input:focus,
+.form-group-full textarea:focus {
+  outline: none;
+  border-color: #15AABF;
+  box-shadow: 0 0 0 4px rgba(21, 170, 191, 0.15);
+}
+
+.file-upload-section {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-actions {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  margin-top: 24px;
+}
+
+.cancel-btn,
+.create-btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cancel-btn {
+  background: #f8fafc;
+  color: #64748b;
+  border: 2px solid #e2e8f0;
+}
+
+.cancel-btn:hover {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+  transform: translateY(-1px);
+}
+
+.create-btn {
+  background: linear-gradient(135deg, #15AABF 0%, #0d8a9e 100%);
+  color: white;
+  border: none;
+  box-shadow: 0 2px 8px rgba(21, 170, 191, 0.3);
+}
+
+.create-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #0d8a9e 0%, #0a6b7a 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(21, 170, 191, 0.4);
+}
+
+.create-btn:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+  .create-farm-content {
+    padding: 32px 24px;
+    padding-left: 260px;
+  }
+
+  .farm-card-body {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .create-farm-content {
+    padding: 24px 16px;
+    padding-left: 16px;
+    margin-left: 0;
+  }
+
+  .farm-list-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .add-farm-btn {
+    width: 100%;
+  }
+
+  .create-farm-form {
+    grid-template-columns: 1fr;
+    padding: 28px 24px;
+  }
+
+  .form-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cancel-btn,
+  .create-btn {
+    width: 100%;
+  }
+}
+
+/* Loading indicator para botão */
+.create-btn:disabled {
+  position: relative;
+}
+
+.create-btn:disabled::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin: auto;
+  border: 2px solid transparent;
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,16 @@
+{
+  "short_name": "BoviCare",
+  "name": "BoviCare - Sistema de Gerenciamento de Bovinos",
+  "icons": [
+    {
+      "src": "images/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#15AABF",
+  "background_color": "#ffffff"
+}
+

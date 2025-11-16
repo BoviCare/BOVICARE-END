@@ -1,0 +1,761 @@
+13
+Capítulo 1. Principais doenças da 
+bovinocultura leiteira
+Controle e Profilaxia Geral: A mitigação de fatores de risco para todas doenças demanda que algumas medidas de ordem geral sejam 
+adotadas, tais como: testes sorológicos antes da compra de animais, isolamento dos animais de duas a 
+três semanas antes de introduzi-los no rebanho, isolamento dos bovinos doentes em áreas adequadas, 
+utilização de material genético (sêmen e embriões) livres de patógenos. A adoção de boas práticas de 
+manejo, como a divisão de lotes de animais de acordo com a faixa etária e condição fisiológica, isola-
+mento da área onde os animais permanecem com áreas vizinhas, uso individual de material veterinário 
+adequadamente esterilizado, são medidas de prevenção de enfermidades e consequentes prejuízos eco-
+nômicos. Estabelecer estratégias básicas, como programas de controle do histórico reprodutivo, manifes-
+tações clínicas e prevalências das enfermidades nos rebanhos gerenciados são medidas fundamentais 
+na prevenção e controle das enfermidades.
+Doenças víricas
+Rinotraqueíte infecciosa bovina (IBR)
+Os herpesvírus bovinos estão amplamente disseminados nos rebanhos em que a bovinocultura é explora-
+da intensivamente. Esses vírus provocam infecções respiratórias (rinotraqueíte infecciosa bovina – IBR), 
+vulvovaginite pustular infecciosa (IPV), balanopostite pustular infecciosa (IPB), conjuntivite, infertilidade, 
+abortos, infecção multissistêmica fatal de neonatos e meningoencefalite, que são responsáveis por gran-
+des prejuízos econômicos. O herpesvírus bovino tipo 1 (BoHV-1) está associado a doença respiratória e 
+reprodutiva (manifestações genitais e abortos); o BoHV-2 é o agente da mamilite herpética, enquanto que 
+o BoHV-5 tem sido relacionado à encefalite herpética dos bovinos. Uma característica epidemiológica im-
+portante dos herpesvírus é a sua capacidade de estabelecer latência em células ganglionares do animal 
+infectado. Quando os animais são expostos a fatores estressantes ou têm a imunidade suprimida, criam-
+se condições ideais para a reativação viral.  
+14 Em animais adultos, os sinais clínicos aparentes da infecção com o herpes vírus em geral estão relacio-
+nados a problemas reprodutivos. As perdas ocorrem desde a fase embrionária, com perda gestacional 
+precoce, até abortamentos em qualquer fase da gestação. O herpes vírus ainda causa vulvovaginite 
+pustular infecciosa (IPV) nas fêmeas, caracterizada pela presença de lesões vesiculares ou pustulares 
+hiperêmicas (vermelhidão) na mucosa vulvovestibular das fêmeas.
+Diagnóstico da Rinotraqueíte infecciosa bovina (IBR): o envio adequado de material ao laboratório é uma etapa fundamental para o correto diag-
+nóstico. Para o isolamento viral e reação da polimerase em cadeia (PCR) podem ser enviadas amostras 
+como suabe nasal, suabe e raspado vaginal, sêmen fresco ou congelado, fragmentos de tecidos de fe-
+tos abortados, gânglios dos nervos sacral e trigêmio. Para pesquisa de anticorpos, deve-se enviar soro 
+sanguíneo colhido de forma asséptica, ou sangue. Todo o material deve ser enviado sob refrigeração, 
+devidamente identificado e acompanhado de um breve histórico e das alterações encontradas. O teste 
+sorológico padrão para a detecção de anticorpos anti-BoHV é a prova de soroneutralização. Os animais 
+positivos apresentam títulos médios entre 8 e 64. Ocasionalmente, são detectados títulos mais altos e 
+alguns animais desenvolvem títulos muito baixos ou não detectáveis. A coleta pareada de soro (no início 
+do quadro clínico e após duas a quatro semanas) dos animais pode auxiliar o diagnóstico. É importan-
+te destacar, no entanto, que esta técnica é incapaz de diferenciar os títulos provenientes da exposição 
+ao vírus vacinal daqueles oriundos da exposição natural ao vírus de campo. Testes imunoenzimáticos 
+(ELISA) têm sido empregados no diagnóstico sorológico de infecções pelo herpes vírus bovino, devido à 
+sua sensibilidade e rapidez de execução. 
+As manifestações clínicas da infecção pelo BoHV-1 podem ser controladas e prevenidas por meio de 
+procedimentos adequados de manejo e programas de vacinação, visando diminuir as perdas econômicas 
+causadas pela enfermidade.
+Controle e profilaxia da IBR
+ A estratégia de controle deve ser definida com base na situação epidemiológica do rebanho. Programas 
+de combate ao BoHV-1 requerem uma análise de custo-benefício que deve considerar a prevalência, ma-
+nifestação clínica da doença, grau de melhoramento genético dos animais, despesas com exames labo-
+ratoriais (sorodiagnóstico e identificação viral), vacinação e descarte de animais infectados. Diagnóstico 
+da situação sobre a doença servirá de base para a adoção de medidas adequadas de controle. A deter-
+minação das taxas de infecção de animais e, principalmente, de categorias de animais susceptíveis, pos-
+sibilita a adoção estratégica de condutas de controle e profilaxia com o objetivo de aumentar a eficiência 
+reprodutiva.
+Como a doença está disseminada pelos rebanhos bovinos brasileiros, é provável que um grande número 
+de animais seja sorologicamente positivo na propriedade. Esse é um fator que inviabiliza a erradicação, 
+exceto em propriedades muito controladas, onde a circulação de animais é baixa e, portanto, o número 
+de positivos à sorologia é baixo ou nulo. Em todos os casos, é importante conhecer o status do rebanho 
+em relação à infecção, o que pode ser feito por meio de sorologia realizada em animais das diferentes 
+categorias do rebanho (novilhas, vacas, touros).
+No geral, a vacinação deve ser realizada em rebanhos com histórico comprovado da infecção, em con-
+finamentos que agregam animais de várias procedências ou outros tipos de estabelecimentos com alta 
+rotatividade de bovinos. Nesses casos, a vacinação contínua e regular pode reduzir a circulação do vírus 
+e diminuir a ocorrência de manifestações clínicas, reduzindo possíveis perdas econômicas. Rebanhos 
+com alta prevalência de animais soropositivos, mas sem histórico clínico de doença respiratória ou genital 
+e sem problemas reprodutivos (retorno ao cio, infertilidade), podem ser mantidos sem vacinação, mas 
+15
+com monitoramento contínuo dos parâmetros produtivos e clínicos. Em rebanhos sem histórico da infec-
+ção, podem ser implementadas medidas de biosseguridade para evitar a introdução do BoHV-1. Para que 
+essa sistemática funcione, é preciso que todos os animais que ingressem no rebanho sejam testados, e 
+que todos os positivos sejam descartados. 
+As vacinas não evitam a infecção pelo BoHV-1, mas reduzem a sintomatologia clínica e, portanto, os pre-
+juízos econômicos causados pelo vírus. No mercado brasileiro, há vacinas inativadas ou atenuadas que 
+têm sido utilizadas para controlar a disseminação do vírus e, principalmente, para reduzir a severidade da 
+doença clínica e das perdas associadas à infecção pelo BoHV-1. Para fêmeas prenhes, o recomendado 
+é a utilização de vacinas inativadas, uma vez que as vacinas atenuadas podem reverter à forma virulen-
+ta, representando um risco ao feto. No entanto, a duração da imunidade conferida por essas vacinas é 
+inferior à das atenuadas, o que exige revacinações frequentes, usualmente a cada seis meses. De uma 
+forma geral, recomenda-se a utilização da vacina de acordo com orientações do fabricante. No entanto, 
+a sua utilização deveria estar embasada em avaliações sorológicas periódicas que definam o momento 
+correto de revacinações.
+Além do uso de vacinas, o uso de sêmen e embriões livres do BoHV-1, bem como monitoramento soroló-
+gico periódico dos rebanhos, são medidas que podem ser adotadas para o controle da IBR. Animais não 
+vacinados e sorologicamente positivos devem ser descartados, desde que em rebanho de baixa preva-
+lência da enfermidade, uma vez que esses animais permanecem portadores do vírus por toda a vida e 
+são potenciais disseminadores.
+Estratégias de desinfecção devem também ser consideradas no controle da IBR. O BoHV-1 é inativado 
+com o uso de desinfetantes que possuem derivados fenólicos 1%, hipoclorito de sódio 2%, hidróxido de 
+sódio 0,5%, amônia quaternária 1%, compostos iodados 10% e solução de formalina 5%. São instáveis 
+no meio ambiente, inativados em até 10 dias a 37 ºC, instáveis em pH ácido e estáveis a 4 ºC por meses.
+Diarreia viral bovina (BVD)
+É causada um vírus com alta variabilidade genética e antigênica, o vírus da diarreia viral bovina (BVD), e 
+acomete animais de todas as idades. É considerada uma das principais enfermidades virais de bovinos, 
+sendo associada a várias manifestações clínicas e perdas econômicas importantes em rebanhos de corte 
+e leite em todo o mundo. É citada como o principal patógeno do concepto bovino.
+Possui distribuição mundial e com alta ocorrência no Brasil. Segundo manuais da Organização Mundial 
+da Saúde Animal (OIE), a BVD está entre as doenças de maior impacto produtivo nos sistemas de criação 
+de bovinos no mundo. Clinicamente, a BVD se manifesta de diversas formas: problemas reprodutivos 
+interferindo na fecundação/implantação, mortalidade embrionária precoce ou tardia, mumificação fetal, 
+abortos e nascimentos de bezerros fracos ou mal formados. A transmissão pode ocorrer pela monta ou 
+sêmen (IA) contaminados e pelo contato direto e indireto dos animais.
+Quando a vaca gestante se infecta com o vírus no primeiro trimestre de gestação, pode ocasionar o nas-
+cimento de imunotolerantes ao vírus. Esses animais são denominados persistentemente infectados (PI), 
+por excretarem o agente de forma intermitente ou contínua, tornando-se fonte de disseminação da doen-
+ça por toda a vida. Na maioria das vezes, a infecção de vacas gestantes causa aborto e retorno ao cio. 
+Contudo, em outros casos, cerca de 0,5% a 2%, ocorre o nascimento de animais PI. Os animais PI po-
+dem apresentar retardo no desenvolvimento e depressão do sistema imune, levando-os à morte precoce. 
+Porém, em alguns casos, o animal se desenvolve normalmente e sobrevive por longos períodos, chegan-
+do a idade adulta/produtiva. Algumas vacas com infecção causada pelo vírus da BVD são aparentemente 
+normais, mas com baixa produção, alta contagem de células somáticas (CCS) e contagem de bactérias 
+16 totais (CBT), e baixa concentração de gordura e proteína no leite. Também é comum rebanhos portado-
+res do vírus apresentarem casos recorrentes de diferentes manifestações clínicas, tais como problemas 
+respiratórios, tristeza parasitária e diarreias, decorrentes do potencial efeito imunossupressor do vírus. 
+Diagnóstico da Diarreia viral bovina (BVD): o isolamento viral no laboratório pode ser realizado a partir de amostras de sangue total, 
+soro, secreções e tecidos (baço, timo, linfonodos e pulmão) coletados de animais com infecção aguda 
+e/ou fetos abortados. A detecção de anticorpos específicos no soro serve como indicativo de exposição 
+prévia ao agente em animais não vacinados. Porém, a soroconversão detectada em amostras pareadas 
+(coletadas em um intervalo de 3-4 semanas) pode confirmar a suspeita clínica. O diagnóstico em nível de 
+rebanho, para avaliação do status de infecção, pode ser efetuado pela pesquisa de anticorpos em amos-
+tras individuais de sangue ou de leite, assim como em amostras coletivas em tanques de resfriamento de 
+leite.
+Controle e profilaxia da Diarreia viral bovina (BVD)
+O controle pode ser realizado com ou sem utilização de vacinas, de acordo com o histórico do rebanho. 
+O controle com vacinação é recomendado em rebanhos com alta rotatividade de animais, rebanhos com 
+sorologia positiva, com histórico de doença clínica ou reprodutiva ou a partir do isolamento viral.
+No Brasil, há apenas uma vacina comercial com vírus vivo atenuado. As demais são inativadas com ad-
+juvante oleoso ou hidróxido de alumínio. Para a sua utilização, recomenda-se o esquema de vacinação 
+do fabricante. No entanto, a utilização dessas vacinas deveria estar embasada em avaliações sorológicas 
+periódicas, que indicariam o momento correto de revacinações. A grande variabilidade de cepas isoladas 
+a campo pode impactar negativamente o desempenho vacinal. Atualmente, há no mercado brasileiro 
+vacinas contendo as cepas do vírus da diarreia viral bovina tipo 1 (BVDV-1), tipo 2 (BVDV-2) ou a sua 
+associação. 
+O controle sem vacinação é recomendado para rebanhos onde há pouco ou nenhum ingresso de animais 
+novos e que, portanto, são considerados de baixo risco. Rebanhos que sejam negativos para a presença 
+do vírus ou que não apresentem sinais clínicos da enfermidade, especialmente reprodutivos, também se 
+enquadram nessa forma de controle. 
+ A principal medida de controle da enfermidade, no entanto, é a identificação e descarte de animais persis-
+tentemente infectados (PI). Esses animais eliminam o vírus de forma intermitente por toda a vida. A identi-
+ficação do PI é realizada por testes laboratoriais, como o ensaio imunoenzimático (ELISA) para detecção 
+do antígeno, ou testes moleculares (amplificação do RNA viral RT-PCR). Para o teste de animais abaixo 
+de seis meses de idade, as amostras preconizadas são de biópsia de orelha. Alicates assinaladores são 
+ferramentas apropriadas para as coletas. Para animais acima dos seis meses de idade ou que serão 
+testados pela técnica de PCR, amostras de soro, plasma, além da biópsia de orelha, também podem ser 
+usadas para o exame. Os protocolos para controle de PI devem ser necessariamente iniciados nos ani-
+mais jovens da fazenda, por ser a categoria em que é observada a maior prevalência de animais PI, além 
+de, indiretamente, testarem as mães. Para as bezerras testadas negativas, pode-se assumir que as mães 
+são igualmente negativas. Nos casos de bezerras positivas no teste, o exame deve ser repetido com pelo 
+menos 30 dias de intervalo, sendo obrigatório o teste nas suas respectivas mães.
+O principal objetivo do programa de controle da BVD é a eliminação dos animais PI do rebanho, e a 
+prevenção da infecção fetal com o objetivo de evitar a geração de novos PIs. Com isso, as chances de 
+ocorrerem infecções transitórias nas vacas e, por consequência, perdas reprodutivas diminuem substan-
+cialmente. É válido ressaltar que a vacinação não “trata” as bezerras infectadas pelo vírus da BVD. Não 
+existe tratamento para o PI, e a vacina tem por finalidade epidemiológica reduzir a transmissão entre os 
+17
+animais do rebanho, ou reduzir a intensidade das manifestações clínicas caso um animal vacinado seja 
+infectado. Assim, as vacinas não têm efeito “curativo”, e um animal PI disseminará o vírus durante toda a 
+sua vida produtiva.
+Também é importante ressaltar que, para o controle de PIs no rebanho, todos os animais devem ser 
+avaliados. Além disso, toda nova reintrodução de animais na propriedade deve ser precedida da mesma 
+avaliação.
+Adicionalmente, o controle da diarreia viral bovina deve ser realizado por meio do isolamento de animais 
+recém-adquiridos (quarentena) e de exames que permitam a identificação do vírus (exames diretos) ou 
+dos anticorpos produzidos pelo sistema imune contra esse antígeno (exames indiretos). Propriedades 
+que utilizam inseminação artificial e transferência de embriões devem certificar-se de trabalhar com ma-
+terial não contaminado pelo vírus. O controle da BVD passa pela combinação de medidas que envolvem 
+a identificação e eliminação do PI do rebanho, uma boa colostragem, vacinação da mãe e da bezerra, 
+assim como a biosseguridade do rebanho.
+Febre aftosa
+É uma doença infecciosa aguda causada por um vírus com sete tipos diferentes, podendo se disseminar 
+muito rapidamente. Atinge animais biungulados (casco dividido), como bovinos, búfalos, caprinos, ovinos 
+e suínos, causando febre por 2 a 3 dias e o aparecimento de vesículas, principalmente na boca e nos 
+cascos dos animais. O vírus está concentrado nas vesículas, mas também pode estar presente em outros 
+tecidos e secreções dos animais infectados, como saliva, leite, fezes, sêmen e urina. Quando a doença 
+está no pico, o vírus circula no sangue, e o animal pode secretar o vírus poucos dias antes do apareci-
+mento de sintomas. Após a infecção, os animais apresentam os sintomas por 2-14 dias. As vesículas no 
+trato digestivo dificultam a alimentação, ocorrendo emagrecimento e diminuição da produção de leite. As 
+lesões evoluem para erosões. Nos membros as lesões levam à dificuldade de movimentação e apatia.  A 
+transmissão da doença ocorre pelo contato direto com animais contaminados, ou contato indireto via pes-
+soas, alimentos, água, sêmen, veículos e equipamentos contaminados. Os animais podem permanecer 
+portadores do vírus por 6 meses a 3 anos. A febre aftosa pode ser confundida com outras doenças com 
+sintomas semelhantes, tais como estomatite vesicular, língua azul, podridão dos cascos, e diarreia viral 
+bovina.
+Diagnóstico da Febre Aftosa: é realizado por meio de exames específicos nas redes de laboratórios oficiais do Ministério 
+da Agricultura, Pecuária e Abastecimento (Mapa) com material colhido e enviado pelo Serviço Veterinário 
+Oficial (SVO) da Seapi.
+O Brasil não apresenta novos casos de febre aftosa desde 2006. Parte significativa do sucesso em re-
+lação ao controle da enfermidade se deve à adoção do Plano Nacional de Erradicação da Febre Aftosa 
+(PNEFA) desde o ano de 1992, que exige a eliminação de todos os animais positivos e expostos ao vírus 
+causador da enfermidade em área de surto, além de vacinação maciça de todo o rebanho nacional. Santa 
+Catarina é o único estado da federação que não vacina seu rebanho, uma vez que é considerado um 
+estado livre, sem vacinação desde o ano de 2007.
+Controle da Febre Aftosa: a vacina no Brasil é composta pelos sorotipos A24 Cruzeiro, O1 Campos e C3 Indaial, que 
+são cepas representativas dos vírus que circularam no País. No Rio Grande do Sul, o Pnefa obriga duas 
+vacinações em todos os bovinos e bubalinos com até 24 meses (meses de maio e novembro) e uma vaci-
+nação com animais com mais de 24 meses (mês de maio). No entanto, a partir da reformulação do Pnefa, 
+em seu Plano Estratégico 2017-2026, a vacinação deixará de ser realizada em todo o País até o ano de 
+2021. No Rio Grande do Sul, que está situado no bloco V do Plano Estratégico, a vacinação deixará de 
+18 ser realizada em maio de 2021. Após dois anos sem vacinação e sem novos casos da enfermidade, o 
+País será considerado uma área livre de febre aftosa, sem vacinação, o que deverá acarretar em valori-
+zação da carne produzida no Brasil. 
+Raiva dos herbívoros
+É uma doença infectocontagiosa, aguda e fatal, causada por um vírus que atinge o sistema nervoso cen-
+tral. Cursa com sintomatologia nervosa, mudança de comportamento, agressividade, paralisia progres-
+siva e morte. A raiva bovina também é uma zoonose importante de impacto na saúde pública. Também 
+causa grandes perdas econômicas na pecuária nacional, tendo alta prevalência em diversas regiões do 
+País, podendo atingir qualquer rebanho de animais de sangue quente. 
+A transmissão da doença para os bovinos acontece pela mordida do morcego hematófago Desmodus 
+rotundus. O período de incubação pode variar de 1 a 3 meses. Em bovinos, a doença pode se manifestar 
+na forma nervosa ou na forma paralítica, culminando na morte do animal em até 8 a 10 dias. Atenção es-
+pecial deve ser dada aos animais com sintomatologia de parada digestiva, com a exploração da cavidade 
+oral, devido ao risco de contaminação com o contato da saliva pela concentração do vírus. Não existe 
+tratamento para a doença. 
+Diagnóstico da Raiva dos herbívoros: é atribuição dos laboratórios credenciados processar as amostras suspeitas.  É uma doen-
+ça de notificação compulsória, e o Serviço Veterinário Oficial deverá ser alertado no caso de suspeita de 
+casos. Atualmente, nos laboratórios credenciados, as técnicas utilizadas são a imunofluorescência direta, 
+recomendada pela Oganização Mundial de Saúde Animal (OIE), e o isolamento viral.  Mais recentemente, 
+tem sido utilizada a imuno-histoquímica, que permite a detecção do antígeno viral em tecidos fixados em 
+formol e incluídos em parafina. O diagnóstico correto só é garantido mediante envio adequado das amos-
+tras aos laboratórios de referência.
+Controle da Raiva dos herbívoros: é realizado pela vacinação do rebanho conforme as recomendações do fabricante. A primeira 
+imunização pode ocorrer a partir de 3 meses de idade e deve ser seguida de uma segunda dose 30 dias 
+após. É indicado reforço anual em áreas endêmicas. Recomenda-se que os profissionais médicos-vete-
+rinários realizem a vacinação contra raiva devido ao risco inerente da profissão. Na área rural, os produ-
+tores podem auxiliar os órgãos de defesa animal no controle da raiva herbívora, localizando abrigos de 
+morcegos hematófagos e informando ao serviço veterinário oficial sua localização. Cuidado especial na 
+entrada de pessoas em cavernas com alta densidade populacional de morcegos infectados, pois existem 
+relatos nos Estados Unidos da transmissão do patógeno por via aerógena.
+É importante lembrar que morcegos com comportamento atípico, de desorientação, visíveis a luz do dia 
+ou caídos em casas ou galpões, são suspeitos de raiva e devem ser encaminhados para diagnóstico la-
+boratorial. O produtor pode informar o adentramento ou acidentes com morcegos ao Serviço Veterinário 
+Oficial, que é o responsável pelo encaminhamento do material ao laboratório.
+Doenças bacterianas
+Mastite
+Apesar de todos avanços tecnológicos, a infecção da glândula mamária continua sendo a doença bacte-
+riana com maior impacto em rebanhos leiteiros e, portanto, avanços contínuos no controle dessa doença 
+são necessários para assegurar a sustentabilidade da pecuária leiteira em todo o mundo. Em regiões 
+onde a cadeia produtiva está em desenvolvimento, há a necessidade de se fornecer infraestrutura ade-
+quada para higiene da ordenha, e treinamentos técnicos para auxiliar produtores a adotarem eficiente-
+19
+mente estratégias de manejo que minimizem o desenvolvimento de novas infecções intramamárias, e que 
+resultem na produção de leite seguro e de alta qualidade para o consumo. 
+As mastites podem ser de natureza infecciosa (causada por microrganismos) ou não infecciosa (fisiológi-
+ca, ou causada por agente físico e/ou produto químico). As mastites infecciosas são as mais importantes, 
+por seu caráter contagioso e por afetarem significativamente a produtividade dos rebanhos. Podem se 
+classificar, de acordo com os sinais apresentados, em mastites clínicas (com sintomas evidentes no exa-
+me clinico) e mastites subclínicas (sem sintomas no exame clínico). Conforme o agente, podem ser clas-
+sificadas em mastites contagiosas, quando provocadas por microrganismos dos gêneros Staphylococcus 
+spp., Streptococcus spp., Corynebactrium spp., Mycoplasma spp.), e em mastites ambientais, quando 
+provocada por bactérias coliformes, Streptococcus uberis, Actinomyces pyogenes, Psedudomans spp., 
+fungos e algas.
+As vacas afetadas apresentam distintos sinais clínicos de acordo com a intensidade de infecção.  A com-
+posição do leite é alterada conforme o agente infeccioso e a intensidade da doença. 
+Diagnóstico da Mastite: em mastites subclínicas, é realizado pelo CMT (California Mastites Test), ou pela contagem 
+de células somáticas (CCS) em laboratórios da Rede Brasileira de Laboratórios de Qualidade do Leite 
+(RBQL); efetuado de forma rotineira, é excelente estratégia de monitoramento de rebanhos. Assim como 
+o teste da caneca de fundo escuro é válido para detecção de mastites clínicas e deve ser realizado a 
+cada ordenha. O tratamento é de responsabilidade do médico-veterinário tendo em conta a gravidade da 
+doença, o isolamento do agente envolvido e o antibiograma, para identificação da resistência bacteriana 
+ao antibiótico utilizado.
+Controle e profilaxia da Mastite: o controle da mastite deve levar em conta a redução dos fatores que podem pre-
+dispor a sua ocorrência nos animais, tais como: adequar as instalações de forma a evitar lesões no úbere 
+e tetos, não jogar leite com mastite no chão, não estressar os animais antes da ordenha, secar animais 
+com lactação acima de 305 dias, descartar animais com idade avançada, evitar que as terneiras mamem 
+umas nas outras, e cuidar da alimentação, para que atenda as exigências nutricionais dos animais. Além 
+disso, é fundamental que o local de ordenha e os equipamentos estejam limpos, que o ordenhador trate 
+os animais com calma e realize o manejo de ordenha com higiene. A prevenção de infecções intramamá-
+rias em vacas primíparas é um grande desafio para os diferentes sistemas de produção. O tratamento 
+de vacas secas com antibióticos e/ou selantes é uma estratégia de controle, sempre com a supervisão 
+de um médico-veterinário responsável. Outros pontos críticos devem ser considerados na prevenção das 
+infecções: o equipamento e o manejo correto de ordenha, fatores relacionados com a seleção genética 
+das vacas, suplementação nutricional e vacinação. As práticas de manejo que reduzem a contaminação 
+bacteriana dos tetos são fundamentais no controle da mastite. Desse modo, as medidas básicas de bios-
+seguridade, como limpeza e desinfecção de equipamentos e da sala de ordenha, bem como manutenção 
+periódica das ordenhadeiras (controle de vácuo, substituição de borrachas e teteiras) são determinantes 
+para a prevenção.
+Tuberculose
+Importante zoonose de relevância para saúde pública causada por Mycobacterium bovis (M. bovis), ge-
+rando grandes perdas econômicas à cadeia produtiva do leite. Pode acometer ruminantes, suínos, aves, 
+animais silvestres e humanos. A principal via de transmissão do agente é aérea, sendo a inalação de 
+aerossóis a mais comum. Dessa forma, são afetados os gânglios linfáticos da cadeia regional pulmonar. 
+O contato direto (focinho com focinho) com secreções nasais e a ingestão de leite cru de animais infecta-
+dos também constituem possíveis vias de transmissão, essa última especialmente importante quando for 
+20 considerada a infecção de animais jovens. A transmissão via digestiva causa lesões nos gânglios linfáti-
+cos intestinais, na parede intestinal e no fígado. A infeção transplacentária não é comum. É vital salientar 
+nesta e nas demais doenças infectocontagiosas a importância do status sanitário das vacas doadoras de 
+colostro. Essas fêmeas devem estar livres de patógenos, tendo-se em vista o elevado risco de dissemi-
+nação desses pelo colostro para várias terneiras(os).
+A tuberculose é uma doença infectocontagiosa de evolução crônica, podendo apresentar vários sinais 
+clínicos, como tosse, emagrecimento progressivo, cansaço, e aumento dos gânglios linfáticos. Entretanto, 
+muitas vezes é uma doença assintomática, principalmente nos animais mais velhos, que permanecem 
+muito tempo na propriedade. Esses animais servem como importante fonte de contaminação para o reba-
+nho bovino e para os humanos. No animal contaminado pelo M. bovis, o patógeno é eliminado nas secre-
+ções do trato respiratório, fezes, leite, urina, sêmen e secreções genitais. O manejo incorreto dos animais 
+especialmente na atividade leiteira onde ocorre a maior aglomeração dos animais pode se tornar um fator 
+de risco para disseminação de doenças. Assim como manter os animais em instalações inadequadas de 
+confinamento favorece a transmissão de patógenos.
+Diagnóstico da Tuberculose: é realizado por meio de detecção da resposta imunológica ao patógeno Mycobacterium, 
+que é específica. O teste cutâneo de reação à tuberculina, tuberculinização pela prova cervical com M. 
+bovis, é efetuado para detecção de animais reagentes. Os testes devem ser realizados por médicos-
+veterinários habilitados pelo Programa Nacional de Controle e Erradicação da Brucelose e Tuberculose 
+(PNCEBT).
+Controle da Tuberculose: testar e eliminar animais positivos da propriedade é estratégia indispensável para erradicação 
+da tuberculose no rebanho. Medidas de biosseguridade, como o controle de origem, correta identificação 
+e teste de animais novos a serem integrados no rebanho, bem como o controle de visitantes e a correta 
+higienização das instalações, são medidas fundamentais para proteger o rebanho de novas infecções. 
+O M. bovis é sensível à luz solar e desinfetantes como hipoclorito de sódio, iodo e fenóis.  As diferentes 
+formas de pasteurização, lenta (62 °C por 30 minutos), rápida (72-75 °C por 15-20 segundos) ou ultrapas-
+teurização (UHT 130-150°C por 2-4 segundos) eliminam o agente, garantindo o consumo seguro do leite.
+Brucelose bovina
+Ainda é um sério problema de saúde animal na maioria dos países. Com exceção daqueles que, após 
+programas rigorosos, conseguiram erradicá-la ou pelo menos reduzir significativamente a taxa de pre-
+valência, na maior parte do globo, principalmente nos países mais pobres, ainda constitui uma questão 
+sanitária preocupante. Suas implicações econômicas geram barreiras internacionais ao comércio de pro-
+dutos de origem animal e perdas na indústria: condenação do leite e da carne, queda de preços da carne, 
+leite e derivados, desvalorização para o mercado externo, e altos custos com programas de controle, 
+erradicação e pesquisas.
+No Brasil, a brucelose bovina ainda é endêmica, com taxas de prevalência mais elevadas em regiões com 
+maior densidade de bovinos e com menores taxas de prevalência nos estados de Santa Catarina e Rio 
+Grande do Sul.
+É uma das zoonoses mais disseminadas mundialmente, cujo agente etiológico Brucella abortus causa 
+problemas reprodutivos característicos, tais como, nas fêmeas, abortos no terço final de gestação (6 a 8 
+meses) com aumento do intervalo entre partos (IEP) e diminuição na produção de leite, e, nos machos, 
+orquite, epididimite e infertilidade.  O patógeno B. abortus pode ser transmitido direta ou indiretamente do 
+animal ao homem, e do ponto de vista da saúde pública é considerada não só enfermidade ocupacional, 
+com incapacidade para o trabalho e diminuição do rendimento, mas também fator nocivo à produção 
+21
+de alimentos, principalmente de proteínas de origem animal, que são indispensáveis para a saúde e 
+bem-estar.
+A doença em bovinos é uma enfermidade crônica, e o patógeno B. abortus pode permanecer por longos 
+períodos (mais de 6 meses) viável em material de aborto ou restos placentários nas pastagens. Condições 
+ambientais favoráveis, como sombra, umidade e baixas temperaturas, favorecem sua viabilidade no am-
+biente. Por outro lado, são extremamente sensíveis à luz solar. Também são sensíveis à pasteurização 
+e desinfecção com cloro, cal, cresol e/ou formol em concentrações ideais. Assim, esses produtos podem 
+ser utilizados na desinfecção das instalações, utensílios e ambiente. 
+Diagnóstico da Brucelose Bovina: embora um diagnóstico definitivo e incontestável de brucelose possa ser obtido pelo iso-
+lamento do agente etiológico, esse procedimento é caro, demorado e exige recursos laboratoriais nem 
+sempre disponíveis, o que inviabiliza seu uso em larga escala, como requer um programa de controle da 
+enfermidade. Por essa razão, os programas de combate à brucelose baseiam-se no diagnóstico soroló-
+gico, recurso que permite a realização de um grande número de testes, com resultados adequados e a 
+um custo acessível.
+O Programa Nacional de Controle e Erradicação da Brucelose e Tuberculose Animal, criado por meio da 
+Instrução Normativa nº2, de 10 de janeiro de 2001 (Brasil 2001), optou pela adoção de técnicas sorológi-
+cas menos dispendiosas, o que permite o envolvimento de um número maior de laboratórios, aumentando 
+a chance de êxito do programa.
+O programa brasileiro prevê o uso sequencial dos testes “rosa de Bengala” (antígeno acidificado tampo-
+nado) como teste de triagem, sendo os soros com resultado positivo submetidos a confirmação, que pode 
+ser realizada pela combinação da prova de soroaglutinação lenta com a prova do 2-mercaptoetanol ou 
+então pela reação de fixação de complemento.
+Controle e profilaxia da Brucelose Bovina: a vacinação do gado é uma das medidas mais eficazes para reduzir a prevalência 
+da brucelose, sendo utilizada com sucesso em muitos programas de controle e erradicação. Até o mo-
+mento, apenas amostras vivas atenuadas da bactéria desencadearam proteção. A vacina mais utilizada, 
+responsável pela erradicação da enfermidade em alguns países, é a da cepa 19 de B. abortus (vacina 
+B19), que apresenta como inconveniente a possibilidade de interferir no diagnóstico sorológico, além de 
+poder infectar o homem, ocasionar orquite e epididimite nos machos e aborto em fêmeas vacinadas em 
+final de gestação, assim como o fazem cepas de campo da bactéria.
+Recomenda-se a vacinação das fêmeas jovens, entre 3 e 8 meses de idade, com a vacina B19. Quando 
+são fêmeas adultas e desconhece-se o status vacinal, pode ser efetuada a vacinação com a RB51. A 
+proteção contra o aborto e a infecção induzida pela vacinação com RB51 em bovinos tem sido suficiente 
+sob condições experimentais. Além disso, o uso da RB51 é altamente eficaz em condições de campo, em 
+rebanhos com alta e baixa prevalência de brucelose.
+Aliado ao programa de vacinação, medidas de biosseguranca são fundamentais, tais como o cuidado na 
+introdução de animais novos na propriedade, efetuando-se sempre o controle sanitário anterior à compra 
+de animais. Recomenda-se também o monitoramento do rebanho mediante exames periódicos para iden-
+tificação de animais positivos e sua eliminação. Para a realização dos testes sorológicos, deve-se evitar 
+coletar sangue no período de 2 a 4 semanas antes ou depois do parto, pois poderá implicar resultado 
+falso negativo. O manejo correto do piquete ou baia de maternidade é fundamental no controle de fontes 
+de contaminação. Manter o local limpo, seco, ventilado, trocar a cama periodicamente e realizar o vazio 
+sanitário são fundamentais para se garantir saúde aos animais. A desinfecção de piquetes maternidades 
+pode ser efetuada com o uso cal virgem.
+22 Com o intuito de diminuir o impacto negativo de algumas zoonoses na saúde humana e animal, o Mapa 
+criou em 2001 o Programa Nacional de Controle e Erradicação de Brucelose e Tuberculose (PNCEBT). 
+O objetivo do programa é o controle dessas zoonoses, visando a erradicação. Sua atuação é por meio da 
+vacinação contra a brucelose em fêmeas de 3 a 8 meses de idade, e do sacrifício dos animais reagentes 
+positivos para ambas as doenças (brucelose e tuberculose), certificando as propriedades como livres ou 
+monitoradas e oferecendo bonificação aos produtores que participam do programa, quando enviam seus 
+animais positivos para tuberculose para o abate sanitário.
+Leptospirose
+É uma infecção zoonótica em todo o mundo, causada por espiroquetas patogênicas do gênero Leptospira. 
+Em bovinos, a doença varia de quadro clínico agudo, com febre, hematúria, hemoglobinúria, meningite 
+e morte, a uma doença crônica que causa problemas reprodutivos, como por exemplo, aborto, fetos mu-
+mificados, nascimento de bezerros fracos, aumento do intervalo entre partos, cio irregular, retenção de 
+membranas fetais e infertilidade. 
+As fontes de infecção são animais infectados que contaminam a pastagem, a água e outras fontes de 
+alimentos com urina, fetos abortados e descarga uterina infectada. A persistência de leptospiras em de-
+terminada região está relacionada à alta umidade e temperatura, solos neutros e levemente alcalinos, 
+presença de matéria orgânica, existência de animais silvestres e presença de animais infectados no 
+rebanho. Entre os reservatórios de animais selvagens estão ratos, raposas, chacais, guaxinins, gambás, 
+doninhas, gatos selvagens, guaxinins e outros. Também são considerados fatores de risco a introdução 
+de animais contaminados e externos à propriedade rural, o uso de reprodutores/sêmen contaminados e o 
+acesso a areas de alimentação e fonte de água contaminadas. O controle de roedores e outros animais 
+que possam atuar como fonte de infecção também é muito importante para o controle da doença. 
+Diagnóstico da Leptospirose: é efetuado baseado nos sintomas clínicos e exames laboratoriais. O teste sorológico é o 
+procedimento laboratorial mais utilizado para confirmar o diagnóstico clínico, determinar a prevalência do 
+rebanho e realizar estudos epidemiológicos. O teste sorológico padrão é o teste de aglutinação microscó-
+pica. Os requisitos mínimos de antígeno são: que o teste deva incluir cepas representativas de todos os 
+sorogrupos conhecidos na região em particular, bem como aqueles conhecidos por serem mantidos em 
+outros lugares pelas espécies hospedeiras. Um título de 100 é considerado positivo para fins de comércio 
+internacional, mas, dada a alta especificidade da soroaglutinação microscópica, títulos mais baixos po-
+dem ser tomados como evidência de exposição prévia a Leptospira.
+Controle e profilaxia da Leptospirose: geralmente, a vacinação contra a leptospirose ocorre em dose única, a cada seis 
+meses; evidências sugerem que um programa de vacinação que compreenda a vacinação anual de ani-
+mais seja uma maneira eficaz de reduzir o risco de infecção no gado e, consequentemente, a transmissão 
+para os seres humanos.
+Muitos fatores podem influenciar na eficácia da vacinação para se prevenir a eliminação de leptospiras 
+na urina. Por exemplo, a idade na primeira vacinação pode ser importante, uma vez que a vacinação é 
+menos eficaz para reduzir a excreção urinária em animais já infectados do que em não infectados.
+Além disso, a composição da vacina pode influir na eficácia uma vez que foi recentemente sugerido que 
+as vacinas monovalentes têm maior eficácia do que as vacinas multivalentes na ativação do sistema 
+imunológico e na prevenção da eliminação de leptospiras na urina. A realização de exames periódicos 
+de monitoramento no rebanho é uma estratégia útil no controle da doença. A prevenção é efetuada pela 
+vacinação dos animais, de acordo com a orientação do médico-veterinário, aliada ao controle dos fatores 
+de risco, principalmente evitando-se o acesso de roedores à alimentação dos bovinos.
+23
+A brucelose, a tuberculose, a leptospirose e a raiva são consideradas importantes zoonoses ocupacio-
+nais, podendo ser risco à saúde de profissionais e de produtores rurais que atuam diretamente com os 
+animais, como médicos-veterinários, inseminadores, produtores rurais que trabalham em propriedades 
+leiteiras e em confinamentos, e funcionários de frigoríficos que possuem contato direto com a carcaça de 
+animais contaminados com esses patógenos.
+Doenças parasitárias
+Neosporose
+É uma doença causada por um protozoário intracelular obrigatório denominado Neospora caninum. Esse 
+parasito tem os bovinos como seu hospedeiro intermediário e como hospedeiro definitivo diversos caní-
+deos. O mais importante deles é o cão doméstico. Os principais sinais clínicos que surgem em rebanhos 
+em que a neosporose está presente são o aborto e o nascimento de terneiros fracos. 
+São descritas duas formas de transmissão dessa enfermidade: a primeira, horizontal, pela qual cães 
+que ingeriram restos fetais eliminam oócistos nas suas fezes, que contaminam pastagens e chegam até 
+os bovinos por via oral, causando surtos de abortos em algumas propriedades. É considerada de baixa 
+ocorrência no Brasil, quando comparada à segunda forma de transmissão, vertical. Nessa última, também 
+denominada congênita, há passagem do agente da mãe para as filhas, o que é relativamente comum de 
+ser evidenciado em investigações sorológicas nos rebanhos leiteiros e, por isso, ser considerada a prin-
+cipal forma de transmissão e manutenção de N. caninum nos rebanhos. 
+Diagnóstico da Neosporose: para ser confirmatório, é fundamental associar dados epidemiológicos, provas sorológicas, 
+imuno-histoquímica e outros métodos para demonstrar a infecção na mãe e no feto abortado, evidencian-
+do taquizoítos de N. caninum nas lesões.
+Não existe tratamento para a neosporose em bovinos e, embora já tenham sido lançadas vacinas no mer-
+cado, estudos demonstram que elas não são eficazes na prevenção da doença. Por exemplo, sabe-se 
+que nem mesmo a imunidade em vacas naturalmente infectadas é suficiente para prevenir infecção fetal, 
+motivo pelo qual não há padrão para ocorrência de abortos, que podem ocorrer em gestações subse-
+quentes ou alternadas em vacas leiteiras. 
+Controle da Neosporose: as medidas preventivas incluem: dificultar o acesso de cães a fetos, líquidos fetais e restos 
+placentários de bovinos; evitar o convívio entre cães domésticos e bovinos leiteiros, visando diminuir 
+dejeções nas pastagens e em locais de fabricação e armazenamento de concentrado; realizar diagnós-
+tico sorológico para N. caninum (e outras doenças reprodutivas) em bovinos com histórico de aborto na 
+propriedade para se traçar um panorama dos problemas do rebanho;  realizar sorologia para N. caninum 
+como forma de triagem antes da compra de animais, permitindo apenas a entrada de fêmeas negativas 
+nas propriedades. 
+Para a determinação do agente etiológico da ocorrência de falhas reprodutivas ou abortos, é importante 
+que o material abortado (fetos ou restos placentários não autolisados) seja encaminhado adequadamente 
+aos laboratórios de referência para diagnóstico patológico.
+Tristeza parasitária bovina (TPB)
+É um complexo de duas doenças com características epidemiológicas semelhantes, conhecidas por babe-
+siose e anaplasmose, que são causadas por três agentes: Babesia bigemina, Babesia bovis e Anaplasma 
+marginale. Esses microrganismos são transmitidos aos bovinos pelo carrapato Rhipicephalus (Boophilus) 
+24 microplus e, particularmente, no caso de A. marginale também por insetos hematófagos e diversos uten-
+sílios, como seringas e agulhas.
+A TPB causa perdas de alto impacto econômico na bovinocultura leiteira. Suas manifestações clínicas 
+inespecíficas são febre, apatia, anorexia e suspensão súbita da lactação. Como sinais clínicos espe-
+cíficos, aparecem nas infecções por B. bigemina palidez de mucosas e hemoglobinúria; nos casos de 
+B. bovis, agressividade e sintomatologia nervosa; e na anaplasmose, icterícia. É frequente que quadros 
+clínicos culminem em aborto e retenção de placenta, ou mesmo morte dos animais. Outro fator importante 
+na TPB são as perdas subclínicas, sem sintomatologia evidente, mas responsáveis por queda na produ-
+ção leiteira e subfertilidade. 
+Existem três fatores principais para o agravamento da TPB em bovinos leiteiros: a) as raças de bovinos de 
+leite criadas no Sul do Brasil são de origem europeia e, portanto, mais suscetíveis a carrapatos e agentes 
+da TPB; b) os nascimentos são distribuídos ao longo de todo ano nas propriedades leiteiras, o que impede 
+organização do calendário sanitário em função das estações do ano ou clima e o tratamento da totalidade 
+dos bovinos (como geralmente ocorre em propriedades de corte); c) o período de carência dos fármacos 
+antiparasitários e antibióticos no leite, que induz a concentração de grande parcela dos tratamentos nas 
+fases de vacas secas ou terneiras e novilhas pré-púberes. Como agravante, a gama de fármacos car-
+rapaticidas que o produtor tem à sua disposição está drasticamente reduzida, em função da resistência 
+parasitária aos inseticidas e acaricidas.
+Diagnóstico da Tristeza parasitária bovina: clínico e/ou laboratorial é efetuado por meio de esfregaço de sangue identificando a pre-
+sença do(s) parasita(s).
+O tratamento da TPB é amplamente difundido entre produtores e técnicos e basicamente realizado com 
+derivados de diamidina nas babesioses, e tetraciclinas na anaplasmose. Existem associações no mer-
+cado que trazem esses dois fármacos como opção de tratamento nos casos em que não houve o diag-
+nóstico de certeza. O diagnóstico de certeza e específico só é possível mediante exame laboratorial com 
+a identificação do agente nas hemácias parasitadas. Existem relatos de resistência das babesias e de 
+Anaplasma a esses medicamentos, mas ainda assim essas moléculas químicas continuam a ser as mais 
+utilizadas. Outra opção é o imidocarb, que apesar de ter indicação farmacológica para tratamentos, tem 
+seu uso muito mais atribuído aos esquemas de quimioprofilaxia. Nas propriedades em que as medidas 
+preventivas forem prioridades de manejo, as perdas diretas e indiretas pela TPB serão minimizadas. 
+Controle da Tristeza parasitária bovina: como medidas profiláticas para a bovinocultura leiteira existem as seguintes alternativas:
+- Permitir infestações naturais moderadas dos bovinos por carrapatos e insetos hematófagos em diferen-
+tes épocas do ano para que haja o contato com os agentes da TPB e desenvolvimento de resposta imune 
+(em áreas livres de TPB e carrapato, barrar a entrada de vetores);
+- Manter boa imunidade nos bovinos, evitando estresse ambiental e de produção ou mesmo oscilações 
+bruscas na composição da dieta;
+- Revisar diariamente os animais, buscando identificar e tratar precocemente animais com sinais clínicos 
+da doença;
+- Remeter a um laboratório amostras de sangue total com anticoagulante de animais doentes, para que 
+haja confirmação da suspeita clínica ou subclínica (sempre realizar a coleta antes do tratamento);
+- Realizar necropsia de animais que forem a óbito, também no sentido de confirmar o diagnóstico clínico;
+25
+- Desenvolver, com o auxílio de um médico-veterinário, e somente quando necessário, programas quimio-
+profiláticos (imidocarb) ou imunoprofiláticos (vacina) para a propriedade. Nesse caso, sempre levar em 
+consideração o histórico da propriedade, morbidade e mortalidade por TPB, época do ano em que mais 
+ocorreram as mortes dos animais e prováveis fatores que influenciaram na ocorrência das enfermidades.
+Na Tabela 1, estão listadas as principais doenças dos bovinos leiteiros e suas respectivas patogenias.
+Tabela 1. Principais doenças de bovinos leiteiros.
+Doença
+Microorganismos Transmissão (via)
+Sinais clínicos
+Vacina
+Tratamento
+Erradicável
+Brucelose bovina
+Bactéria
+Oral, reprodução.
+Aborto, natimortos, 
+terneiros fracos.
+Sim
+Não
+Sim
+Mastite
+Infecciosa ou não 
+Sim
+Não
+Tuberculose
+Bactéria
+Inalação,oral.
+Perda de peso, lesões 
+em órgãos da cavidade 
+abdominal.
+Não 
+Não
+Sim
+Diarreia viral bovina 
+(BVD)
+Vírus
+Oral, reprodução.
+Diarreia severa, febre, 
+aborto, retornos 
+irregulares ao cio, 
+nascimento de terneiros 
+fracos.
+Sim
+Não
+Sim
+Rinotraqueíte 
+infecciosa bovina 
+(IBR)
+Vírus
+Inalação, 
+reprodução.
+Aborto, tosse, infecção 
+ocular, infecção genital.
+Sim
+Não
+Sim
+Leptospirose
+Bactéria
+Pele, oral, 
+inalação, 
+reprodução.
+Aborto, natimortos, 
+terneiros fracos, febre, 
+queda na produção.
+Sim
+Sim
+Não
+Neosporose
+Protozoário
+Oral, reprodução.
+Aborto, nascimento de 
+terneiros fracos.
+Não
+Não
+Não
+Salmonelose
+Bactéria
+Oral
+Diarreia
+Sim
+Sim
+Não
+Leucose
+Vírus
+Sangue, 
+reprodução.
+Aumento de linfonodos.
+Não
+Não
+Não
+Raiva
+Vírus
+Mordedura 
+de morcegos 
+hematófagos.
+Anorexia, 
+hiperexcitabilidade, 
+ataxia, morte.
+Sim
+Não
+Sim
+Febre aftosa
+Vírus
+Oral (saliva), 
+leite, fômites, 
+reprodução.
+Vesículas (boca, 
+língua, patas), 
+anorexia, dificuldade 
+de movimentação, 
+hipersalivação.
+Sim
+Não
+Sim
+Tristeza parasitária
+Protozoários ou 
+rickettsia
+Carrapato 
+ou insetos 
+hematófagos e 
+fômites.
+Febre, anorexia, 
+palidez de mucosas 
+(ou icterícia), 
+hemoglobinúria, redução 
+da lactação, aborto, 
+morte.
+Sim
+Sim
+Não
+Vacinação no manejo sanitário em bovinos leiteiros
+A vacinação visa a prevenção da ocorrência e da disseminação de doenças. Além de promover o bem-es-
+tar animal, a vacinação minimiza os prejuízos econômicos provocados pelas doenças, como perdas na 
+produção e reprodução. A seguir são descritos na Tabela 2 aspectos relevantes ao calendário de vacina-
+ção em bovinos leiteiros no Rio Grande do Sul, tais como tipo de vacina, categoria animal, periodicidade 
+e vias de administração das vacinas. É importante ressaltar que o esquema de vacinação deve ter orien-
+tação de um médico veterinário e seguir as normas do fabricante.
+26 As vacinas contra febre aftosa e brucelose são de caráter obrigatório, segundo determinação do Mapa. As 
+demais vacinas devem obedecer às orientações do médico-veterinário responsável. 
+As boas práticas são essenciais para bons resultados na vacinação do rebanho. Devem ser observados 
+alguns cuidados essenciais, tais como: não vacinar animais fracos e doentes, evitar o estresse no ma-
+nejo dos animais, evitar vacinar animais em horários mais quentes, cuidados na compra de produtos, 
+buscando sempre certificados/confiáveis, prazo de validade, atenção em relação à temperatura de arma-
+zenamento e transporte, deixar sempre as vacinas e seringa/pistola em caixa térmica para protegê-las 
+do calor no momento da administração, e, sobretudo, higiene no manuseio dos instrumentos e seguir as 
+instruções do local correto de aplicação da vacina.
+Tabela 2. Calendário de vacinação recomendado para bovinos leiteiros no Rio Grande do Sul.
+Vacina
+Categoria/Idade
+Periodicidade
+Via de 
+Administração
+Febre aftosa
+Todos
+Maio
+Subcutânea ou 
+Intramuscular
+Febre aftosa
+Até 24 meses (machos e fêmeas)
+Novembro
+Subcutânea ou 
+Intramuscular
+Brucelose cepa B19
+Fêmeas dos 3 aos 8 meses
+Única
+Subcutânea
+Brucelose cepa RB51
+Fêmeas a partir dos 3 meses
+Única
+Subcutânea
+Raiva
+Todos a partir de 70 dias
+Anual
+Subcutânea ou 
+Intramuscular
+Clostridioses (C. perfringens 
+tipos A,B,C e D; C. septicum; 
+C. oedematiens; C. soedelli; C. 
+chauvoei; C. haemolytuicum)
+Todos a partir de 70 dias
+Anual
+Subcutânea
+Botulismo
+A partir de 6 meses
+Anual
+Subcutânea
+Tétano
+A partir de 6 meses
+Anual
+Subcutânea
+Carbúnculo hemático
+A partir de 4 meses
+Anual
+Subcutânea
+IBR
+Fêmeas a partir de 6 meses
+Semestral
+Intramuscular
+BVD
+Fêmeas a partir de 6 meses
+Semestral
+Intramuscular
+Leptospirose
+Todos a partir de 70 dias
+Semestral
+Subcutânea
+Colibacilose
+Vacas 30 dias pré-parto e 
+terneiras(os) a partir de 20 dias
+Vacas 30 dias antes do parto, e 
+terneiras(os) a partir de 20 dias e 
+revacinar 30 dias após.
+Subcutânea
+Pasteurelose
+Vacas 30 dias pré parto e 
+terneiras(os) a partir de 20 dias
+Vacas 30 dias antes do parto, e 
+terneiras(os) a partir de 20 dias e 
+revacinar 30 dias após.
+Subcutânea
+Salmonelose
+Vacas 30 dias pré-parto e 
+terneiras(os) a partir de 20 dias
+Vacas 30 dias antes do parto, e 
+terneiras(os) a partir de 20 dias e 
+revacinar 30 dias após.
+Subcutânea
+Parainfuenza tipo 3 – PI3
+Fêmeas a partir de 6 meses
+Anual
+Intramuscular
+Vírus sincicial bovino
+Fêmeas a partir de 6 meses
+Anual
+Intramuscular
+Coronavírus
+Vacas 30 dias antes do parto
+30 dias préparto
+Intramuscular
+Rotavírus
+Vacas 30 dias antes do parto
+30 dias préparto
+Intramuscular
+27
+Literatura consultada
+BACCILI, C. A.; TORRES, F. D.; GOMES, V. Manejo sanitário contra herpes e vírus da diarreia viral bovina na fase reprodutiva. 
+Disponível em: <http://www.milkpoint.br>. Acesso em: 17 jul. 2018.
+FLORES, E.F. Virologia Veterinária. 3.ed. Santa Maria: Ed. Da UFSM, 2017. 1136 p.
+FOOT AND MOUTH DISEASE, OIE. BIOSECURITY FOR DAIRY FARMS. Wisconsin Veterinary, Diagnostic Laboratory. Dairy 
+Biosecurity Healthy Farms. Dairy Australia. Australian Dairy Farms. Dairy Australia Ltd. ABN 601106227 Level 5, IBM Centre 60 
+City Road Southbank VIC 3006. Disponível em<www.dairyaustralia.com.au>. Acesso em: 30 jul. 2018.
+MEGID, J., RIBEIRO, M.G., PAES, A.C. Doenças Infecciosas em animais de produção e de companhia. Rio de Janeiro: Roca, 
+2016. 1294p.
+PEGORARO, L. M. C.; SAALFELD, M. H.; WEISSHEIMER, C. F.; VIEIRA, A. D.  Manejo reprodutivo em bovinos de leite. Pelo-
+tas: Embrapa Clima Temperado, 2009. 38 p. (Embrapa Clima Temperado. Documentos, 286).
+PITUCO, E. M. Aspectos clínicos, prevenção e controle da IBR. 2009. Artigo em Hypertexto. Disponível em: http://www.
+infobibos.com/Artigos/2009_2/IBR/index.htm>. Acesso em: 09 maio 2018.
+OLIVEIRA, M. C. de S. Doenças infecciosas em sistemas de produção de leite. São Carlos: Embrapa Pecuária Sudeste, 2006. 
+34 p. (Embrapa Pecuária Sudeste. Documentos, 50). 
+RIET-CORREA, F.; SCHILD, A. L.; LEMOS, R. A. A.; BORGES, J. R. Doenças de ruminantes e eqüídeos. 3. ed. Santa Maria: 
+Pallotti, 2007, 694 p.
+SANTOS, M. V.; TOMAZI, T. O que sabemos sobre a mastite? Estratégias de prevenção. Disponível em: <http://www.
+milkpoint.com>. Acesso em: 17 jul. 2018. 
+SCHAFHÄUSER JUNIOR, J.; PEGORARO, L. M. C.; ZANELA, M. B. Tecnologias para sistemas de produção de leite . Brasília, 
+DF: Embrapa, 2016. 437 p. 
