@@ -39,12 +39,18 @@ const Users = () => {
 
   const handleCreateUser = async (userData) => {
     try {
+      setError('');
       await createUser(userData);
       setSuccess('Usuário criado com sucesso!');
       setShowCreateModal(false);
-      loadUsers();
+      // Aguardar um pouco para garantir que o banco foi atualizado
+      setTimeout(() => {
+        loadUsers();
+      }, 100);
     } catch (err) {
       setError('Erro ao criar usuário: ' + err.message);
+      setSuccess('');
+      throw err; // Re-throw para que o modal possa tratar
     }
   };
 
@@ -233,9 +239,25 @@ const CreateUserModal = ({ onClose, onSubmit }) => {
     role: 'user'
   });
 
-  const handleSubmit = (e) => {
+  const resetForm = () => {
+    setFormData({
+      username: '',
+      email: '',
+      password: '',
+      phone: '',
+      role: 'user'
+    });
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    onSubmit(formData);
+    try {
+      await onSubmit(formData);
+      resetForm();
+    } catch (error) {
+      // Erro já é tratado no componente pai
+      console.error('Erro ao criar usuário:', error);
+    }
   };
 
   const handleChange = (e) => {
@@ -245,12 +267,17 @@ const CreateUserModal = ({ onClose, onSubmit }) => {
     });
   };
 
+  const handleClose = () => {
+    resetForm();
+    onClose();
+  };
+
   return (
-    <div className="modal-overlay" onClick={onClose}>
+    <div className="modal-overlay" onClick={handleClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <div className="modal-header">
           <h3>Criar Novo Usuário</h3>
-          <button className="close-btn" onClick={onClose}>×</button>
+          <button className="close-btn" onClick={handleClose}>×</button>
         </div>
         <form onSubmit={handleSubmit} className="user-form">
           <div className="form-group">
@@ -307,7 +334,7 @@ const CreateUserModal = ({ onClose, onSubmit }) => {
             </select>
           </div>
           <div className="form-actions">
-            <button type="button" onClick={onClose} className="cancel-btn">
+            <button type="button" onClick={handleClose} className="cancel-btn">
               Cancelar
             </button>
             <button type="submit" className="submit-btn">

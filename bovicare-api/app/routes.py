@@ -107,16 +107,6 @@ def create_user():
         print(f"DEBUG: Headers: {dict(request.headers)}")
         
         data = request.get_json()
-        header_user_id = request.headers.get('X-User-Id')
-        payload_user_id = data.get('user_id')
-        owner_user_id = None
-        if header_user_id and str(header_user_id).isdigit():
-            owner_user_id = int(header_user_id)
-        elif payload_user_id and str(payload_user_id).isdigit():
-            owner_user_id = int(payload_user_id)
-
-        if owner_user_id is None:
-            return make_response(jsonify({'message': 'Usuário não informado para criação do gado'}), 400)
         print(f"DEBUG: Dados recebidos: {data}")
         
         if not data.get('username') or not data.get('email') or not data.get('password'):

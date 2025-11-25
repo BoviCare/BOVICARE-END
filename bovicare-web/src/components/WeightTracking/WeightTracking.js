@@ -2,23 +2,26 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { getCattle, addWeight, getWeightHistory, getWeightReport, getHerds, filterCattle } from '../../services/api';
 import './WeightTracking.css';
 
-const initialFilters = {
-  startDate: '2025-08-01',
-  endDate: '2025-08-01',
-  minWeight: 200,
-  maxWeight: 700,
-  breeds: {
-    nelore: false,
-    girolando: false,
-    angus: false,
-    outro: false
-  },
-  situations: {
-    aboveAverage: false,
-    belowAverage: false,
-    rapidGrowth: false,
-    stable: false
-  }
+const getInitialFilters = () => {
+  const today = new Date().toISOString().split('T')[0];
+  return {
+    startDate: today,
+    endDate: today,
+    minWeight: 200,
+    maxWeight: 700,
+    breeds: {
+      nelore: false,
+      girolando: false,
+      angus: false,
+      outro: false
+    },
+    situations: {
+      aboveAverage: false,
+      belowAverage: false,
+      rapidGrowth: false,
+      stable: false
+    }
+  };
 };
 
 const WeightTracking = () => {
@@ -43,7 +46,7 @@ const WeightTracking = () => {
     date: new Date().toISOString().split('T')[0]
   });
 
-  const [filters, setFilters] = useState(initialFilters);
+  const [filters, setFilters] = useState(getInitialFilters());
 
   const hasCattleData = useMemo(() => cattleData.length > 0, [cattleData]);
 
@@ -367,7 +370,7 @@ const WeightTracking = () => {
   };
 
   const handleClearFilters = () => {
-    setFilters(initialFilters);
+    setFilters(getInitialFilters());
     setCattleData(allCattleData);
     setMainCattle(allCattleData[0] || null);
     updateStats(allCattleData);
@@ -406,7 +409,7 @@ const WeightTracking = () => {
     setCattleData([]);
     setMainCattle(null);
     setWeightStats({ averageWeight: null, maxWeight: null, minWeight: null });
-    setFilters(initialFilters);
+    setFilters(getInitialFilters());
   };
 
   const renderHerdSelection = () => (
